@@ -1,0 +1,331 @@
+2019-04-05 14:31:43.093037-04:00: broker_client_factory.CallBacks:EXIT errorId = -1, errorCode = 502, error message: Couldn't connect to TWS.  Confirm that "Enable ActiveX and Socket Clients" is enabled on the TWS "Configure->API" menu.
+2019-04-05 14:31:43.093037-04:00: broker_client_factory.CallBacks:EXIT IBridgePy version= 4.4.1
+2019-04-05 14:34:59.976072-04:00: IBridgePy version 4.4.1
+2019-04-05 14:34:59.976072-04:00: fileName = example_show_positions.py
+2019-04-05 14:35:01.532340-04:00: ####    Starting to initialize trader    ####
+2019-04-05 14:35:01.532340-04:00: ##    ACCOUNT Balance  DU818589  ##
+2019-04-05 14:35:01.532340-04:00: CASH=258040.52
+2019-04-05 14:35:01.532340-04:00: portfolio_value=258040.52
+2019-04-05 14:35:01.532340-04:00: positions_value=0.0
+2019-04-05 14:35:01.532340-04:00: ##    NO ANY POSITION    ##
+2019-04-05 14:35:01.532340-04:00: ##    NO any order    ##
+2019-04-05 14:35:01.532340-04:00: ####    Initialize trader COMPLETED    ####
+2019-04-05 14:35:01.532340-04:00: ##    ACCOUNT Balance  DU818589  ##
+2019-04-05 14:35:01.532340-04:00: CASH=258040.52
+2019-04-05 14:35:01.532340-04:00: portfolio_value=258040.52
+2019-04-05 14:35:01.532340-04:00: positions_value=0.0
+2019-04-05 14:35:01.532340-04:00: ##    NO ANY POSITION    ##
+2019-04-05 14:35:01.532340-04:00: ##    NO any order    ##
+2019-04-05 14:35:02.033311-04:00: IBridgePy.MarketManagerBase::run: END
+2019-04-05 14:38:23.395615-04:00: IBridgePy version 4.4.1
+2019-04-05 14:38:23.395615-04:00: fileName = example_show_positions.py
+2019-04-05 14:38:24.930265-04:00: ####    Starting to initialize trader    ####
+2019-04-05 14:38:24.930265-04:00: ##    ACCOUNT Balance  DU818589  ##
+2019-04-05 14:38:24.930265-04:00: CASH=258040.52
+2019-04-05 14:38:24.930265-04:00: portfolio_value=258040.52
+2019-04-05 14:38:24.930265-04:00: positions_value=0.0
+2019-04-05 14:38:24.930265-04:00: ##    NO ANY POSITION    ##
+2019-04-05 14:38:24.930265-04:00: ##    NO any order    ##
+2019-04-05 14:38:24.930265-04:00: ####    Initialize trader COMPLETED    ####
+2019-04-05 14:38:24.930265-04:00: ##    ACCOUNT Balance  DU818589  ##
+2019-04-05 14:38:24.930265-04:00: CASH=258040.52
+2019-04-05 14:38:24.930265-04:00: portfolio_value=258040.52
+2019-04-05 14:38:24.930265-04:00: positions_value=0.0
+2019-04-05 14:38:24.930265-04:00: ##    NO ANY POSITION    ##
+2019-04-05 14:38:24.930265-04:00: ##    NO any order    ##
+2019-04-05 14:38:25.431240-04:00: IBridgePy.MarketManagerBase::run: END
+2019-04-05 14:39:58.856384-04:00: IBridgePy.TraderBasicResources::show_account_info: EXIT, field=DU81859 is not accessible
+2019-04-05 14:42:00.921009-04:00: IBridgePy version 4.4.1
+2019-04-05 14:42:00.921009-04:00: fileName = example_show_positions.py
+2019-04-05 14:42:02.455325-04:00: ####    Starting to initialize trader    ####
+2019-04-05 14:42:02.455325-04:00: ##    ACCOUNT Balance  DU818589  ##
+2019-04-05 14:42:02.455325-04:00: CASH=258040.52
+2019-04-05 14:42:02.455325-04:00: portfolio_value=258040.52
+2019-04-05 14:42:02.455325-04:00: positions_value=0.0
+2019-04-05 14:42:02.455325-04:00: ##    NO ANY POSITION    ##
+2019-04-05 14:42:02.455325-04:00: ##    NO any order    ##
+2019-04-05 14:42:02.455325-04:00: ####    Initialize trader COMPLETED    ####
+2019-04-05 14:42:02.455325-04:00: ##    ACCOUNT Balance  DU818589  ##
+2019-04-05 14:42:02.455325-04:00: CASH=258040.52
+2019-04-05 14:42:02.455325-04:00: portfolio_value=258040.52
+2019-04-05 14:42:02.455325-04:00: positions_value=0.0
+2019-04-05 14:42:02.455325-04:00: ##    NO ANY POSITION    ##
+2019-04-05 14:42:02.455325-04:00: ##    NO any order    ##
+2019-04-05 14:42:02.956353-04:00: IBridgePy.MarketManagerBase::run: END
+2019-04-05 14:42:57.074710-04:00: IBridgePy version 4.4.1
+2019-04-05 14:42:57.074710-04:00: fileName = example_show_positions.py
+2019-04-05 14:42:57.575556-04:00: broker_client_factory.CallBacks:EXIT errorId = -1, errorCode = 326, error message: Unable connect as the client id is already in use. Retry with a unique client id.
+2019-04-05 14:42:57.575556-04:00: broker_client_factory.CallBacks:EXIT IBridgePy version = 4.4.1
+2019-04-05 14:43:22.974448-04:00: IBridgePy version 4.4.1
+2019-04-05 14:43:22.990067-04:00: fileName = example_show_positions.py
+2019-04-05 14:43:24.508764-04:00: ####    Starting to initialize trader    ####
+2019-04-05 14:43:24.508764-04:00: ##    ACCOUNT Balance  DU818589  ##
+2019-04-05 14:43:24.508764-04:00: CASH=258040.52
+2019-04-05 14:43:24.508764-04:00: portfolio_value=258040.52
+2019-04-05 14:43:24.508764-04:00: positions_value=0.0
+2019-04-05 14:43:24.508764-04:00: ##    NO ANY POSITION    ##
+2019-04-05 14:43:24.508764-04:00: ##    NO any order    ##
+2019-04-05 14:43:24.508764-04:00: ####    Initialize trader COMPLETED    ####
+2019-04-05 14:43:24.508764-04:00: ##    ACCOUNT Balance  DU818589  ##
+2019-04-05 14:43:24.508764-04:00: CASH=258040.52
+2019-04-05 14:43:24.508764-04:00: portfolio_value=258040.52
+2019-04-05 14:43:24.508764-04:00: positions_value=0.0
+2019-04-05 14:43:24.508764-04:00: ##    NO ANY POSITION    ##
+2019-04-05 14:43:24.508764-04:00: ##    NO any order    ##
+2019-04-05 14:43:25.009796-04:00: IBridgePy.MarketManagerBase::run: END
+2019-04-05 14:43:56.611402-04:00: IBridgePy version 4.4.1
+2019-04-05 14:43:56.611402-04:00: fileName = example_show_positions.py
+2019-04-05 14:43:57.112429-04:00: broker_client_factory.CallBacks:EXIT errorId = -1, errorCode = 326, error message: Unable connect as the client id is already in use. Retry with a unique client id.
+2019-04-05 14:43:57.112429-04:00: broker_client_factory.CallBacks:EXIT IBridgePy version = 4.4.1
+2019-04-05 14:44:31.013582-04:00: IBridgePy version 4.4.1
+2019-04-05 14:44:31.013582-04:00: fileName = example_show_positions.py
+2019-04-05 14:44:32.554409-04:00: ####    Starting to initialize trader    ####
+2019-04-05 14:44:32.554409-04:00: ##    ACCOUNT Balance  DU818589  ##
+2019-04-05 14:44:32.554409-04:00: CASH=258040.52
+2019-04-05 14:44:32.554409-04:00: portfolio_value=258040.52
+2019-04-05 14:44:32.554409-04:00: positions_value=0.0
+2019-04-05 14:44:32.554409-04:00: ##    NO ANY POSITION    ##
+2019-04-05 14:44:32.554409-04:00: ##    NO any order    ##
+2019-04-05 14:44:32.554409-04:00: ####    Initialize trader COMPLETED    ####
+2019-04-05 14:44:32.554409-04:00: ##    ACCOUNT Balance  DU818589  ##
+2019-04-05 14:44:32.554409-04:00: CASH=258040.52
+2019-04-05 14:44:32.554409-04:00: portfolio_value=258040.52
+2019-04-05 14:44:32.554409-04:00: positions_value=0.0
+2019-04-05 14:44:32.554409-04:00: ##    NO ANY POSITION    ##
+2019-04-05 14:44:32.554409-04:00: ##    NO any order    ##
+2019-04-05 14:44:33.055437-04:00: IBridgePy.MarketManagerBase::run: END
+2019-04-05 14:45:40.498009-04:00: IBridgePy version 4.4.1
+2019-04-05 14:45:40.498009-04:00: fileName = example_get_historical_data.py
+2019-04-05 14:45:42.123421-04:00: ####    Starting to initialize trader    ####
+2019-04-05 14:45:42.123421-04:00: ##    ACCOUNT Balance  DU818589  ##
+2019-04-05 14:45:42.123421-04:00: CASH=258040.52
+2019-04-05 14:45:42.123421-04:00: portfolio_value=258040.52
+2019-04-05 14:45:42.123421-04:00: positions_value=0.0
+2019-04-05 14:45:42.123421-04:00: ##    NO ANY POSITION    ##
+2019-04-05 14:45:42.123421-04:00: ##    NO any order    ##
+2019-04-05 14:45:42.123421-04:00: ####    Initialize trader COMPLETED    ####
+2019-04-05 14:45:45.477083-04:00: IBridgePy.MarketManagerBase::run: END
+2019-04-05 14:45:56.831405-04:00: IBridgePy version 4.4.1
+2019-04-05 14:45:56.847022-04:00: fileName = example_show_real_time_prices.py
+2019-04-05 14:45:58.387850-04:00: ####    Starting to initialize trader    ####
+2019-04-05 14:45:58.387850-04:00: ##    ACCOUNT Balance  DU818589  ##
+2019-04-05 14:45:58.387850-04:00: CASH=258040.52
+2019-04-05 14:45:58.387850-04:00: portfolio_value=258040.52
+2019-04-05 14:45:58.387850-04:00: positions_value=0.0
+2019-04-05 14:45:58.387850-04:00: ##    NO ANY POSITION    ##
+2019-04-05 14:45:58.387850-04:00: ##    NO any order    ##
+2019-04-05 14:45:58.387850-04:00: ####    Initialize trader COMPLETED    ####
+2019-04-05 14:47:07.398384-04:00: IBridgePy version 4.4.1
+2019-04-05 14:47:07.398384-04:00: fileName = example_get_option_greeks.py
+2019-04-05 14:47:08.932706-04:00: ####    Starting to initialize trader    ####
+2019-04-05 14:47:08.932706-04:00: ##    ACCOUNT Balance  DU818589  ##
+2019-04-05 14:47:08.932706-04:00: CASH=258040.52
+2019-04-05 14:47:08.932706-04:00: portfolio_value=258040.52
+2019-04-05 14:47:08.932706-04:00: positions_value=0.0
+2019-04-05 14:47:08.932706-04:00: ##    NO ANY POSITION    ##
+2019-04-05 14:47:08.932706-04:00: ##    NO any order    ##
+2019-04-05 14:47:08.932706-04:00: ####    Initialize trader COMPLETED    ####
+2019-04-05 14:47:53.238933-04:00: IBridgePy version 4.4.1
+2019-04-05 14:47:53.238933-04:00: fileName = example_get_contract_details.py
+2019-04-05 14:47:54.773253-04:00: ####    Starting to initialize trader    ####
+2019-04-05 14:47:54.773253-04:00: ##    ACCOUNT Balance  DU818589  ##
+2019-04-05 14:47:54.773253-04:00: CASH=258040.52
+2019-04-05 14:47:54.773253-04:00: portfolio_value=258040.52
+2019-04-05 14:47:54.773253-04:00: positions_value=0.0
+2019-04-05 14:47:54.773253-04:00: ##    NO ANY POSITION    ##
+2019-04-05 14:47:54.773253-04:00: ##    NO any order    ##
+2019-04-05 14:47:54.773253-04:00: ####    Initialize trader COMPLETED    ####
+2019-04-05 14:47:54.788870-04:00: broker_client_factory.CallBacks:EXIT errorId = -1, errorCode = 998, error message: Access to IBridgePy premium features is prohibited.
+2019-04-05 14:47:54.788870-04:00: broker_client_factory.CallBacks:EXIT IBridgePy version= 4.4.1
+2019-04-05 14:48:08.853865-04:00: IBridgePy version 4.4.1
+2019-04-05 14:48:08.853865-04:00: fileName = example_security_screener.py
+2019-04-05 14:48:10.394687-04:00: ####    Starting to initialize trader    ####
+2019-04-05 14:48:10.394687-04:00: ##    ACCOUNT Balance  DU818589  ##
+2019-04-05 14:48:10.394687-04:00: CASH=258040.52
+2019-04-05 14:48:10.394687-04:00: portfolio_value=258040.52
+2019-04-05 14:48:10.394687-04:00: positions_value=0.0
+2019-04-05 14:48:10.394687-04:00: ##    NO ANY POSITION    ##
+2019-04-05 14:48:10.394687-04:00: ##    NO any order    ##
+2019-04-05 14:48:10.394687-04:00: ####    Initialize trader COMPLETED    ####
+2019-04-05 14:48:10.410305-04:00: broker_client_factory.CallBacks:EXIT errorId = -1, errorCode = 998, error message: Access to IBridgePy premium features is prohibited.
+2019-04-05 14:48:10.410305-04:00: broker_client_factory.CallBacks:EXIT IBridgePy version= 4.4.1
+2019-04-05 14:49:24.189433-04:00: IBridgePy version 4.4.1
+2019-04-05 14:49:24.205051-04:00: fileName = example_show_positions.py
+2019-04-05 14:49:25.745875-04:00: ####    Starting to initialize trader    ####
+2019-04-05 14:49:25.745875-04:00: ##    ACCOUNT Balance  DU818589  ##
+2019-04-05 14:49:25.745875-04:00: CASH=258040.52
+2019-04-05 14:49:25.745875-04:00: portfolio_value=258040.52
+2019-04-05 14:49:25.745875-04:00: positions_value=0.0
+2019-04-05 14:49:25.745875-04:00: ##    NO ANY POSITION    ##
+2019-04-05 14:49:25.745875-04:00: ##    NO any order    ##
+2019-04-05 14:49:25.745875-04:00: ####    Initialize trader COMPLETED    ####
+2019-04-05 14:49:25.745875-04:00: ##    ACCOUNT Balance  DU818589  ##
+2019-04-05 14:49:25.745875-04:00: CASH=258040.52
+2019-04-05 14:49:25.745875-04:00: portfolio_value=258040.52
+2019-04-05 14:49:25.745875-04:00: positions_value=0.0
+2019-04-05 14:49:25.745875-04:00: ##    NO ANY POSITION    ##
+2019-04-05 14:49:25.745875-04:00: ##    NO any order    ##
+2019-04-05 14:49:26.246903-04:00: IBridgePy.MarketManagerBase::run: END
+2019-04-05 14:49:37.906911-04:00: IBridgePy version 4.4.1
+2019-04-05 14:49:37.906911-04:00: fileName = example_place_order.py
+2019-04-05 14:49:39.456854-04:00: ####    Starting to initialize trader    ####
+2019-04-05 14:49:39.456854-04:00: ##    ACCOUNT Balance  DU818589  ##
+2019-04-05 14:49:39.456854-04:00: CASH=258040.52
+2019-04-05 14:49:39.456854-04:00: portfolio_value=258040.52
+2019-04-05 14:49:39.456854-04:00: positions_value=0.0
+2019-04-05 14:49:39.456854-04:00: ##    NO ANY POSITION    ##
+2019-04-05 14:49:39.456854-04:00: ##    NO any order    ##
+2019-04-05 14:49:39.456854-04:00: ####    Initialize trader COMPLETED    ####
+2019-04-05 14:49:39.478973-04:00: PlaceOrder orderId = 5;
+accountCode = DU818589;
+security = CASH,IDEALPRO,IDEALPRO,EUR,USD;
+order = BUY MKT 100 DAY 
+2019-04-05 14:49:40.496660-04:00: broker_client_factory.CallBacks:errorId = 5, errorCode = 399, error message: Order Message:
+BUY 100 EUR.USD Forex
+Warning: Your order size is below the EUR 20000 IdealPro minimum and will be routed as an odd lot order.
+2019-04-05 14:49:52.499562-04:00: ##    ACCOUNT Balance  DU818589  ##
+2019-04-05 14:49:52.499562-04:00: CASH=257928.36
+2019-04-05 14:49:52.499562-04:00: portfolio_value=258040.52
+2019-04-05 14:49:52.499562-04:00: positions_value=112.16
+2019-04-05 14:49:52.506063-04:00: ##    POSITIONS DU818589   ##
+2019-04-05 14:49:52.506063-04:00: Symbol Amount Cost_basis
+2019-04-05 14:49:52.506063-04:00: CASH,,,EUR,USD 100 1.1216
+2019-04-05 14:49:52.506063-04:00: ##    Order Status DU818589   ##
+2019-04-05 14:49:52.506063-04:00: orderId=5 status=Filled order=BUY MKT 100 DAY  contract=CASH,IDEALPRO,IDEALPRO,EUR,USD
+2019-04-05 14:49:52.506063-04:00: ##    END    ##
+2019-04-05 14:49:53.023713-04:00: IBridgePy.MarketManagerBase::run: END
+2019-04-05 14:50:32.778838-04:00: IBridgePy version 4.4.1
+2019-04-05 14:50:32.778838-04:00: fileName = example_show_positions.py
+2019-04-05 14:50:34.313150-04:00: ####    Starting to initialize trader    ####
+2019-04-05 14:50:34.313150-04:00: ##    ACCOUNT Balance  DU818589  ##
+2019-04-05 14:50:34.313150-04:00: CASH=258038.02
+2019-04-05 14:50:34.313150-04:00: portfolio_value=258038.02
+2019-04-05 14:50:34.313150-04:00: positions_value=0.0
+2019-04-05 14:50:34.328767-04:00: ##    POSITIONS DU818589   ##
+2019-04-05 14:50:34.328767-04:00: Symbol Amount Cost_basis
+2019-04-05 14:50:34.328767-04:00: CASH,,,EUR,USD 100 1.1465999999999998
+2019-04-05 14:50:34.344384-04:00: ##    NO any order    ##
+2019-04-05 14:50:34.344384-04:00: ####    Initialize trader COMPLETED    ####
+2019-04-05 14:50:34.344384-04:00: ##    ACCOUNT Balance  DU818589  ##
+2019-04-05 14:50:34.344384-04:00: CASH=258038.02
+2019-04-05 14:50:34.344384-04:00: portfolio_value=258038.02
+2019-04-05 14:50:34.344384-04:00: positions_value=0.0
+2019-04-05 14:50:34.344384-04:00: ##    POSITIONS DU818589   ##
+2019-04-05 14:50:34.360001-04:00: Symbol Amount Cost_basis
+2019-04-05 14:50:34.360001-04:00: CASH,,,EUR,USD 100 1.1465999999999998
+2019-04-05 14:50:34.360001-04:00: ##    NO any order    ##
+2019-04-05 14:50:34.866514-04:00: IBridgePy.MarketManagerBase::run: END
+2019-04-05 14:53:38.214225-04:00: IBridgePy version 4.4.1
+2019-04-05 14:53:38.229842-04:00: fileName = example_show_positions.py
+2019-04-05 14:53:39.748534-04:00: ####    Starting to initialize trader    ####
+2019-04-05 14:53:39.748534-04:00: ##    ACCOUNT Balance  DU818589  ##
+2019-04-05 14:53:39.748534-04:00: CASH=258038.02
+2019-04-05 14:53:39.748534-04:00: portfolio_value=258038.02
+2019-04-05 14:53:39.748534-04:00: positions_value=0.0
+2019-04-05 14:53:39.764152-04:00: ##    POSITIONS DU818589   ##
+2019-04-05 14:53:39.764152-04:00: Symbol Amount Cost_basis
+2019-04-05 14:53:39.764152-04:00: CASH,,,EUR,USD 100 1.1465999999999998
+2019-04-05 14:53:39.764152-04:00: ##    NO any order    ##
+2019-04-05 14:53:39.779769-04:00: ####    Initialize trader COMPLETED    ####
+2019-04-05 14:53:39.779769-04:00: ##    ACCOUNT Balance  DU818589  ##
+2019-04-05 14:53:39.779769-04:00: CASH=258038.02
+2019-04-05 14:53:39.779769-04:00: portfolio_value=258038.02
+2019-04-05 14:53:39.779769-04:00: positions_value=0.0
+2019-04-05 14:53:39.779769-04:00: ##    POSITIONS DU818589   ##
+2019-04-05 14:53:39.795386-04:00: Symbol Amount Cost_basis
+2019-04-05 14:53:39.795386-04:00: CASH,,,EUR,USD 100 1.1465999999999998
+2019-04-05 14:53:39.795386-04:00: ##    NO any order    ##
+2019-04-05 14:53:40.296414-04:00: IBridgePy.MarketManagerBase::run: END
+2019-04-05 14:54:03.504710-04:00: IBridgePy version 4.4.1
+2019-04-05 14:54:03.504710-04:00: fileName = example_show_positions.py
+2019-04-05 14:54:05.045533-04:00: ####    Starting to initialize trader    ####
+2019-04-05 14:54:05.045533-04:00: ##    ACCOUNT Balance  DU818589  ##
+2019-04-05 14:54:05.045533-04:00: CASH=258038.02
+2019-04-05 14:54:05.045533-04:00: portfolio_value=258038.02
+2019-04-05 14:54:05.045533-04:00: positions_value=0.0
+2019-04-05 14:54:05.061151-04:00: ##    POSITIONS DU818589   ##
+2019-04-05 14:54:05.076768-04:00: Symbol Amount Cost_basis
+2019-04-05 14:54:05.076768-04:00: CASH,,,EUR,USD 100 1.1465999999999998
+2019-04-05 14:54:05.076768-04:00: ##    NO any order    ##
+2019-04-05 14:54:05.076768-04:00: ####    Initialize trader COMPLETED    ####
+2019-04-05 14:54:05.076768-04:00: ##    ACCOUNT Balance  DU818589  ##
+2019-04-05 14:54:05.076768-04:00: CASH=258038.02
+2019-04-05 14:54:05.076768-04:00: portfolio_value=258038.02
+2019-04-05 14:54:05.076768-04:00: positions_value=0.0
+2019-04-05 14:54:05.092385-04:00: ##    POSITIONS DU818589   ##
+2019-04-05 14:54:05.092385-04:00: Symbol Amount Cost_basis
+2019-04-05 14:54:05.092385-04:00: CASH,,,EUR,USD 100 1.1465999999999998
+2019-04-05 14:54:05.092385-04:00: ##    NO any order    ##
+2019-04-05 14:54:05.593411-04:00: IBridgePy.MarketManagerBase::run: END
+2019-04-05 14:54:25.605292-04:00: IBridgePy version 4.4.1
+2019-04-05 14:54:25.605292-04:00: fileName = example_show_positions.py
+2019-04-05 14:54:27.139668-04:00: ####    Starting to initialize trader    ####
+2019-04-05 14:54:27.139668-04:00: ##    ACCOUNT Balance  DU818589  ##
+2019-04-05 14:54:27.139668-04:00: CASH=258038.02
+2019-04-05 14:54:27.139668-04:00: portfolio_value=258038.02
+2019-04-05 14:54:27.139668-04:00: positions_value=0.0
+2019-04-05 14:54:27.161789-04:00: ##    POSITIONS DU818589   ##
+2019-04-05 14:54:27.161789-04:00: Symbol Amount Cost_basis
+2019-04-05 14:54:27.161789-04:00: CASH,,,EUR,USD 100 1.1465999999999998
+2019-04-05 14:54:27.161789-04:00: ##    NO any order    ##
+2019-04-05 14:54:27.161789-04:00: ####    Initialize trader COMPLETED    ####
+2019-04-05 14:54:27.161789-04:00: ##    ACCOUNT Balance  DU818589  ##
+2019-04-05 14:54:27.161789-04:00: CASH=258038.02
+2019-04-05 14:54:27.161789-04:00: portfolio_value=258038.02
+2019-04-05 14:54:27.161789-04:00: positions_value=0.0
+2019-04-05 14:54:27.177410-04:00: ##    POSITIONS DU818589   ##
+2019-04-05 14:54:27.177410-04:00: Symbol Amount Cost_basis
+2019-04-05 14:54:27.177410-04:00: CASH,,,EUR,USD 100 1.1465999999999998
+2019-04-05 14:54:27.177410-04:00: ##    NO any order    ##
+2019-04-05 14:54:27.678443-04:00: IBridgePy.MarketManagerBase::run: END
+2019-04-05 14:54:49.025035-04:00: IBridgePy version 4.4.1
+2019-04-05 14:54:49.025035-04:00: fileName = example_place_order.py
+2019-04-05 14:54:50.597118-04:00: ####    Starting to initialize trader    ####
+2019-04-05 14:54:50.597118-04:00: ##    ACCOUNT Balance  DU818589  ##
+2019-04-05 14:54:50.597118-04:00: CASH=258038.02
+2019-04-05 14:54:50.597118-04:00: portfolio_value=258038.02
+2019-04-05 14:54:50.597118-04:00: positions_value=0.0
+2019-04-05 14:54:50.612734-04:00: ##    POSITIONS DU818589   ##
+2019-04-05 14:54:50.612734-04:00: Symbol Amount Cost_basis
+2019-04-05 14:54:50.612734-04:00: CASH,,,EUR,USD 100 1.1466
+2019-04-05 14:54:50.612734-04:00: ##    NO any order    ##
+2019-04-05 14:54:50.612734-04:00: ####    Initialize trader COMPLETED    ####
+2019-04-05 14:54:50.628352-04:00: PlaceOrder orderId = 10;
+accountCode = DU818589;
+security = CASH,IDEALPRO,IDEALPRO,EUR,USD;
+order = BUY MKT 100 DAY 
+2019-04-05 14:54:51.129382-04:00: broker_client_factory.CallBacks:errorId = 10, errorCode = 399, error message: Order Message:
+BUY 100 EUR.USD Forex
+Warning: Your order size is below the EUR 20000 IdealPro minimum and will be routed as an odd lot order.
+2019-04-05 14:55:21.211279-04:00: broker_factory.interactiveBrokers::order_status_monitor: EXIT, waiting time is too long, >30
+2019-04-05 14:55:21.211279-04:00: broker_factory.interactiveBrokers::order_status_monitor: EXIT, orderId=10, status=Submitted, contract=CASH,IDEALPRO,IDEALPRO,EUR,USD
+2019-04-05 14:56:07.425135-04:00: IBridgePy version 4.4.1
+2019-04-05 14:56:07.425135-04:00: fileName = example_place_order.py
+2019-04-05 14:56:08.966076-04:00: ####    Starting to initialize trader    ####
+2019-04-05 14:56:08.966076-04:00: ##    ACCOUNT Balance  DU818589  ##
+2019-04-05 14:56:08.966076-04:00: CASH=258036.02
+2019-04-05 14:56:08.966076-04:00: portfolio_value=258036.02
+2019-04-05 14:56:08.966076-04:00: positions_value=0.0
+2019-04-05 14:56:08.981697-04:00: ##    POSITIONS DU818589   ##
+2019-04-05 14:56:08.981697-04:00: Symbol Amount Cost_basis
+2019-04-05 14:56:08.981697-04:00: CASH,,,EUR,USD 200 1.1441244000000002
+2019-04-05 14:56:08.981697-04:00: ##    NO any order    ##
+2019-04-05 14:56:08.981697-04:00: ####    Initialize trader COMPLETED    ####
+2019-04-05 14:56:08.997316-04:00: PlaceOrder orderId = 15;
+accountCode = DU818589;
+security = CASH,IDEALPRO,IDEALPRO,EUR,USD;
+order = BUY MKT 100 DAY 
+2019-04-05 14:56:09.498385-04:00: broker_client_factory.CallBacks:errorId = 15, errorCode = 399, error message: Order Message:
+BUY 100 EUR.USD Forex
+Warning: Your order size is below the EUR 20000 IdealPro minimum and will be routed as an odd lot order.
+2019-04-05 14:56:26.612536-04:00: ##    ACCOUNT Balance  DU818589  ##
+2019-04-05 14:56:26.612536-04:00: CASH=257923.856
+2019-04-05 14:56:26.612536-04:00: portfolio_value=258036.02
+2019-04-05 14:56:26.612536-04:00: positions_value=112.164
+2019-04-05 14:56:26.612536-04:00: ##    POSITIONS DU818589   ##
+2019-04-05 14:56:26.612536-04:00: Symbol Amount Cost_basis
+2019-04-05 14:56:26.628154-04:00: CASH,,,EUR,USD 300 1.1366296000000002
+2019-04-05 14:56:26.628154-04:00: ##    Order Status DU818589   ##
+2019-04-05 14:56:26.628154-04:00: orderId=15 status=Filled order=BUY MKT 100 DAY  contract=CASH,IDEALPRO,IDEALPRO,EUR,USD
+2019-04-05 14:56:26.628154-04:00: ##    END    ##
+2019-04-05 14:56:27.129225-04:00: IBridgePy.MarketManagerBase::run: END

@@ -1,0 +1,8 @@
+symbol,sec_type,exchange,currency,expiry,strike,opt_type
+AAPL,STK,SMART,USD,,0,
+BA,STK,SMART,USD,,0,
+AAL,STK,SMART,USD,,0,
+BP,STK,SMART,USD,,0,
+RDS.B,STK,SMART,USD,,0,
+F,STK,SMART,USD,,0,
+GE,STK,SMART,USD,,0,

@@ -29,8 +29,8 @@ class TestStrategy(bt.Strategy):
 
 # add a data feed
 ibstore = bt.stores.IBStore(port=7496, clientId = 1)
-data = ibstore.getdata(dataname='EUR.USD-CASH-IDEALPRO')
-#data = ibstore.reqMktData(dataname='AAPL-STK-AMEX')
+#data = ibstore.getdata(dataname='EUR.USD-CASH-IDEALPRO')
+data = ibstore.reqMktData(dataname='AAPL-STK-SMART')
 
 if __name__ == '__main__':
     cerebro = bt.Cerebro()

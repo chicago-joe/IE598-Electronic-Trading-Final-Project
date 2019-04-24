@@ -38,7 +38,7 @@ class St(bt.Strategy):
         txt.append('{:.2f}'.format(self.data.volume[0]))
         print(','.join(txt))
 
-    data_live = False
+    data_live = True
 
     def notify_data(self, data, status, *args, **kwargs):
         print('*' * 5, 'DATA NOTIF:', data._getstatusname(status), *args)

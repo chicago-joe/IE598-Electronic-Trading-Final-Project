@@ -1,0 +1,10 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"python.condaPath": "C:\\Users\\jloss\\Miniconda3\\Scripts\\conda.exe"
+	}
+}

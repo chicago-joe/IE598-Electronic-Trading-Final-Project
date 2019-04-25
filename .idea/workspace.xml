@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/demos/backtrader_mydemo.py" line="3" mnemonic="9" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="df12c270-c136-498e-9cb3-ccf6c23102b1" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,26 +9,38 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/demos/test.py">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="296" column="54" selection-start-line="296" selection-start-column="54" selection-end-line="296" selection-end-column="54" />
+            <state relative-caret-position="718">
+              <caret line="107" column="5" selection-start-line="107" selection-start-column="5" selection-end-line="107" selection-end-column="5" />
               <folding>
-                <element signature="e#241#261#0" expanded="true" />
+                <element signature="e#279#297#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demos/tws_demo.py">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="40" column="6" selection-start-line="29" selection-end-line="40" selection-end-column="6" />
+            <state relative-caret-position="323">
+              <caret line="164" selection-start-line="164" selection-end-line="164" />
               <folding>
-                <element signature="e#0#38#0" expanded="true" />
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="627">
+              <caret line="107" column="5" selection-start-line="107" selection-start-column="5" selection-end-line="107" selection-end-column="5" />
+              <folding>
+                <element signature="e#279#297#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -50,7 +59,11 @@
     <findStrings>
       <find>login</find>
       <find>main</find>
+      <find>\\</find>
     </findStrings>
+    <replaceStrings>
+      <replace>/</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -68,6 +81,12 @@
         <option value="$PROJECT_DIR$/demos/backtrader_demo.py" />
         <option value="$PROJECT_DIR$/demos/backtrader_mydemo.py" />
         <option value="$PROJECT_DIR$/demos/test.py" />
+        <option value="$PROJECT_DIR$/demos/backtrader_test_v1.0.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_2.py" />
+        <option value="$PROJECT_DIR$/misc/QtPy_MySql_Database.py" />
+        <option value="$PROJECT_DIR$/misc/symbols.csv" />
       </list>
     </option>
   </component>
@@ -80,7 +99,7 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1908" />
     <option name="width" value="1944" />
-    <option name="height" value="2082" />
+    <option name="height" value="2084" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -88,6 +107,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -98,48 +118,42 @@
             <path>
               <item name="IE598_Final_Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="IE598_Final_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="BP_RDSA_PairTrade.data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IE598_Final_Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IE598_Final_Project" type="462c0819:PsiDirectoryNode" />
               <item name="demos" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="IE598_Final_Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="IE598_Final_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="IbPy" type="462c0819:PsiDirectoryNode" />
+              <item name="misc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="IE598_Final_Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IE598_Final_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="IbPy" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
               <item name="IE598_Final_Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IE598_Final_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="TWS" type="462c0819:PsiDirectoryNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
             <path>
               <item name="IE598_Final_Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IE598_Final_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="TWS" type="462c0819:PsiDirectoryNode" />
-              <item name="samples" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IE598_Final_Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IE598_Final_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="TWS" type="462c0819:PsiDirectoryNode" />
-              <item name="samples" type="462c0819:PsiDirectoryNode" />
-              <item name="Testbed" type="462c0819:PsiDirectoryNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Scratches" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="C:/Program Files/Git/git-cmd.exe" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/demos" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="Errors" />
@@ -152,11 +166,12 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jloss\PycharmProjects\IE598_Final_Project\demos" />
+      <recent name="C:\Users\jloss\PycharmProjects\IE598_Final_Project" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\jloss\PycharmProjects\IE598_Final_Project\demos" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\jloss\PycharmProjects\IE598_Final_Project" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -171,8 +186,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.backtrader_mydemo">
-    <configuration name="QTPy_use" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.QtPy_MySql_Database">
+    <configuration name="QtPy_MySql_Database" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="IE598_Final_Project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -180,12 +195,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/demos" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/misc" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demos/QTPy_use.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/misc/QtPy_MySql_Database.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -238,6 +253,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="backtrader_test_v1.0" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="IE598_Final_Project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/demos" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demos/backtrader_test_v1.0.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="IE598_Final_Project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -262,10 +299,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.QtPy_MySql_Database" />
+        <item itemvalue="Python.backtrader_test_v1.0" />
         <item itemvalue="Python.backtrader_mydemo" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.backtrader_demo" />
-        <item itemvalue="Python.QTPy_use" />
       </list>
     </recent_temporary>
   </component>
@@ -287,36 +325,38 @@
       <workItem from="1556118848110" duration="2048000" />
       <workItem from="1556135125563" duration="30000" />
       <workItem from="1556137328728" duration="3440000" />
+      <workItem from="1556176768076" duration="2530000" />
+      <workItem from="1556200182694" duration="1741000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12740000" />
+    <option name="totallyTimeSpent" value="17011000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1719" height="932" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.21647625" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2152736" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936507" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.042307694" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32933652" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32948717" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="5" />
+      <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32933652" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32858992" />
+      <window_info anchor="bottom" id="Python Console" order="11" weight="0.42692307" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" weight="0.32920793" />
       <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Run" order="5" weight="0.48466626" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" weight="0.21647625" />
@@ -347,38 +387,20 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/IE598_Final_Project$backtrader_mydemo.coverage" NAME="backtrader_mydemo Coverage Results" MODIFIED="1556139043847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demos" />
+    <SUITE FILE_PATH="coverage/IE598_Final_Project$QtPy_MySql_Database.coverage" NAME="QtPy_MySql_Database Coverage Results" MODIFIED="1556200716401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/misc" />
     <SUITE FILE_PATH="coverage/IE598_Final_Project$QTPy_use.coverage" NAME="QTPy_use Coverage Results" MODIFIED="1556119263467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demos" />
     <SUITE FILE_PATH="coverage/IE598_Final_Project$test.coverage" NAME="test Coverage Results" MODIFIED="1556138920994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demos" />
+    <SUITE FILE_PATH="coverage/IE598_Final_Project$backtrader_test_v1_0.coverage" NAME="backtrader_test_v1.0 Coverage Results" MODIFIED="1556178168447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demos" />
     <SUITE FILE_PATH="coverage/IE598_Final_Project$backtrader_demo.coverage" NAME="backtrader_demo Coverage Results" MODIFIED="1556138168180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demos" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/IbPy/setup.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IbPy/demo/api_coverage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2520" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IbPy/ib/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IbPy/ib/opt/connection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-139" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IBridgePy/Strategies/example_show_real_time_prices.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IBridgePy/RUN_ME.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TWS/samples/Testbed/Program.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3689" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/IbPy/setup.py" />
+    <entry file="file://$PROJECT_DIR$/IbPy/demo/api_coverage.py" />
+    <entry file="file://$PROJECT_DIR$/IbPy/ib/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/IbPy/ib/opt/connection.py" />
+    <entry file="file://$PROJECT_DIR$/IBridgePy/Strategies/example_show_real_time_prices.py" />
+    <entry file="file://$PROJECT_DIR$/IBridgePy/RUN_ME.py" />
+    <entry file="file://$PROJECT_DIR$/TWS/samples/Testbed/Program.py" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -387,96 +409,104 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demos/ibridgepy_demo.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/demos/ibridgepy_demo.py" />
+    <entry file="file://$PROJECT_DIR$/demos/ibpy_demo.py" />
+    <entry file="file://$PROJECT_DIR$/demos/symbols.csv" />
+    <entry file="file://$PROJECT_DIR$/demos/backtrader_demo.py" />
+    <entry file="file://$PROJECT_DIR$/demos/QTPy_use.py" />
+    <entry file="file://$PROJECT_DIR$/demos/backtrader_mydemo.py" />
+    <entry file="file://$PROJECT_DIR$/IbPy/demo/fancy_marketdata.py" />
+    <entry file="file://$PROJECT_DIR$/IbPy/demo/filters.py" />
+    <entry file="file://$PROJECT_DIR$/IbPy/demo/option_order_data.py" />
+    <entry file="file://$PROJECT_DIR$/IbPy/demo/reference_jython.py" />
+    <entry file="file://$PROJECT_DIR$/IbPy/demo/reference_python.py" />
+    <entry file="file://$PROJECT_DIR$/IbPy/demo/example_opt.py" />
+    <entry file="file://$PROJECT_DIR$/demos/test.py" />
+    <entry file="file://$PROJECT_DIR$/demos/tws_demo.py" />
+    <entry file="file://$PROJECT_DIR$/BP_RDSA_PairTrade.data/Paired Correlation and Trade PnL Analysis/2.PNG">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/demos/ibpy_demo.py">
+    <entry file="file://$PROJECT_DIR$/BP_RDSA_PairTrade.data/Paired Correlation and Trade PnL Analysis/1.PNG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BP_RDSA_PairTrade.data/Paired Correlation and Trade PnL Analysis/3.PNG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demos/backtrader_test_v1.0.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-153" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demos/symbols.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="135">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+          <folding>
+            <element signature="e#85#193#0" expanded="true" />
+          </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demos/bt.trading_signals.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/misc/QtPy_MySql_Database.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/misc/symbols.csv">
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demos/backtrader_demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="75" column="32" selection-start-line="75" selection-start-column="32" selection-end-line="75" selection-end-column="32" />
-          <folding>
-            <element signature="e#838#946#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demos/QTPy_use.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demos/backtrader_mydemo.py">
-      <provider selected="true" editor-type-id="text-editor">
+      <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BP_RDSA_PairTrade.data/BP_RDSA_IntradayTickData/json_to_python_import.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BP_RDSA_PairTrade.data/Cointegration Analysis/COIN - 261days I.PNG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BP_RDSA_PairTrade.data/Cointegration Analysis/COIN - 261days II.PNG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BP_RDSA_PairTrade.data/Cointegration Analysis/COIN - 341days I.PNG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BP_RDSA_PairTrade.data/Cointegration Analysis/COIN - 341days II.PNG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="718">
+          <caret line="107" column="5" selection-start-line="107" selection-start-column="5" selection-end-line="107" selection-end-column="5" />
           <folding>
-            <element signature="e#8#92#0" expanded="true" />
+            <element signature="e#279#297#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IbPy/demo/fancy_marketdata.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IbPy/demo/filters.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IbPy/demo/option_order_data.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IbPy/demo/reference_jython.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IbPy/demo/reference_python.py">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        <state relative-caret-position="323">
+          <caret line="164" selection-start-line="164" selection-end-line="164" />
           <folding>
-            <element signature="e#241#261#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IbPy/demo/example_opt.py">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demos/tws_demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="6" selection-start-line="29" selection-end-line="40" selection-end-column="6" />
+        <state relative-caret-position="627">
+          <caret line="107" column="5" selection-start-line="107" selection-start-column="5" selection-end-line="107" selection-end-column="5" />
           <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demos/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="296" column="54" selection-start-line="296" selection-start-column="54" selection-end-line="296" selection-end-column="54" />
-          <folding>
-            <element signature="e#241#261#0" expanded="true" />
+            <element signature="e#279#297#0" expanded="true" />
           </folding>
         </state>
       </provider>

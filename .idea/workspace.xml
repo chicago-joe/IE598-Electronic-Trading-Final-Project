@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df12c270-c136-498e-9cb3-ccf6c23102b1" name="Default Changelist" comment="" />
+    <list default="true" id="df12c270-c136-498e-9cb3-ccf6c23102b1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/jloss.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webResources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/IE598_Final_Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/IE598_Final_Project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_src/backtrader_trade.signals.py" beforeDir="false" afterPath="$PROJECT_DIR$/_src/backtrader_trade.signals.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/old.src-DEPRECATED/TWS/samples/Testbed/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old.src-DEPRECATED/TWS/samples/Testbed/.vs/Testbed/v15/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old.src-DEPRECATED/TWS/samples/Testbed/AvailableAlgoParams.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old.src-DEPRECATED/TWS/samples/Testbed/ContractSamples.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old.src-DEPRECATED/TWS/samples/Testbed/FaAllocationSamples.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old.src-DEPRECATED/TWS/samples/Testbed/OrderSamples.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old.src-DEPRECATED/TWS/samples/Testbed/Program.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old.src-DEPRECATED/TWS/samples/Testbed/ScannerSubscriptionSamples.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old.src-DEPRECATED/TWS/samples/Testbed/Testbed.pyproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old.src-DEPRECATED/TWS/samples/Testbed/Testbed.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old.src-DEPRECATED/TWS/samples/Testbed/UpgradeLog.htm" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,44 +27,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="718">
-              <caret line="107" column="5" selection-start-line="107" selection-start-column="5" selection-end-line="107" selection-end-column="5" />
-              <folding>
-                <element signature="e#279#297#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="164" selection-start-line="164" selection-end-line="164" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="107" column="5" selection-start-line="107" selection-start-column="5" selection-end-line="107" selection-end-column="5" />
-              <folding>
-                <element signature="e#279#297#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -70,7 +51,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="ef18563f-bf3f-48e9-a86c-3087d7e96524" />
+    <option name="defaultAccountId" value="f8ec4e84-cdea-4aad-b9b8-cbd75f26441e" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -87,6 +68,7 @@
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_2.py" />
         <option value="$PROJECT_DIR$/misc/QtPy_MySql_Database.py" />
         <option value="$PROJECT_DIR$/misc/symbols.csv" />
+        <option value="$PROJECT_DIR$/_src/PairTrade-backtesting.py" />
       </list>
     </option>
   </component>
@@ -97,9 +79,9 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1908" />
-    <option name="width" value="1944" />
-    <option name="height" value="2084" />
+    <option name="x" value="846" />
+    <option name="width" value="864" />
+    <option name="height" value="927" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -107,7 +89,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -118,17 +99,28 @@
             <path>
               <item name="IE598_Final_Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="IE598_Final_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="BP_RDSA_PairTrade.data" type="462c0819:PsiDirectoryNode" />
+              <item name="_doc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="IE598_Final_Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="IE598_Final_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="demos" type="462c0819:PsiDirectoryNode" />
+              <item name="_doc" type="462c0819:PsiDirectoryNode" />
+              <item name="Correlation &amp; Cointegration Analysis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IE598_Final_Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IE598_Final_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="_src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="IE598_Final_Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="IE598_Final_Project" type="462c0819:PsiDirectoryNode" />
               <item name="misc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IE598_Final_Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IE598_Final_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="old.src-DEPRECATED" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="IE598_Final_Project" type="b2602c69:ProjectViewProjectNode" />
@@ -138,30 +130,27 @@
               <item name="IE598_Final_Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
-            <path>
-              <item name="IE598_Final_Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-              <item name="Scratches" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/demos" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="preferences.updates" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
-      <console-settings sdk-home="C:\Users\jloss\Miniconda3\python.exe">
-        <option name="mySdkHome" value="C:\Users\jloss\Miniconda3\python.exe" />
+      <console-settings module-name="IE598_Final_Project" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="IE598_Final_Project" />
       </console-settings>
     </option>
   </component>
@@ -308,7 +297,7 @@
     </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\jloss\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -327,30 +316,45 @@
       <workItem from="1556137328728" duration="3440000" />
       <workItem from="1556176768076" duration="2530000" />
       <workItem from="1556200182694" duration="1741000" />
+      <workItem from="1556217339875" duration="2088000" />
+      <workItem from="1556241145496" duration="183000" />
+      <workItem from="1556269749563" duration="641000" />
+      <workItem from="1556312187076" duration="1353000" />
+      <workItem from="1556675354021" duration="12000" />
+      <workItem from="1556675375688" duration="8000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17011000" />
+    <option name="totallyTimeSpent" value="21296000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1719" height="932" extended-state="6" />
+    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2152736" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14785373" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.249549" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936507" />
       <window_info anchor="bottom" id="Debug" order="2" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="5" />
+      <window_info anchor="bottom" id="TODO" order="5" sideWeight="0.49969932" weight="0.32876712" />
       <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" sideWeight="0.499098" visible="true" weight="0.3281372" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32933652" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32858992" />
-      <window_info anchor="bottom" id="Python Console" order="11" weight="0.42692307" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.500902" side_tool="true" weight="0.42590287" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.499098" weight="0.3275218" />
+      <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.499098" weight="0.42590287" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -358,29 +362,6 @@
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Run" order="5" weight="0.48466626" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.21647625" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32936507" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.03846154" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32933652" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32948717" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.32920793" />
-      <window_info anchor="right" id="Database" order="4" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -423,93 +404,81 @@
     <entry file="file://$PROJECT_DIR$/IbPy/demo/example_opt.py" />
     <entry file="file://$PROJECT_DIR$/demos/test.py" />
     <entry file="file://$PROJECT_DIR$/demos/tws_demo.py" />
-    <entry file="file://$PROJECT_DIR$/BP_RDSA_PairTrade.data/Paired Correlation and Trade PnL Analysis/2.PNG">
+    <entry file="file://$PROJECT_DIR$/BP_RDSA_PairTrade.data/Paired Correlation and Trade PnL Analysis/2.PNG" />
+    <entry file="file://$PROJECT_DIR$/BP_RDSA_PairTrade.data/Paired Correlation and Trade PnL Analysis/1.PNG" />
+    <entry file="file://$PROJECT_DIR$/BP_RDSA_PairTrade.data/Paired Correlation and Trade PnL Analysis/3.PNG" />
+    <entry file="file://$PROJECT_DIR$/demos/backtrader_test_v1.0.py" />
+    <entry file="file://$PROJECT_DIR$/demos/bt.trading_signals.py" />
+    <entry file="file://$PROJECT_DIR$/misc/QtPy_MySql_Database.py" />
+    <entry file="file://$PROJECT_DIR$/misc/symbols.csv" />
+    <entry file="file://$PROJECT_DIR$/BP_RDSA_PairTrade.data/BP_RDSA_IntradayTickData/json_to_python_import.py" />
+    <entry file="file://$PROJECT_DIR$/BP_RDSA_PairTrade.data/Cointegration Analysis/COIN - 261days I.PNG" />
+    <entry file="file://$PROJECT_DIR$/BP_RDSA_PairTrade.data/Cointegration Analysis/COIN - 261days II.PNG" />
+    <entry file="file://$PROJECT_DIR$/BP_RDSA_PairTrade.data/Cointegration Analysis/COIN - 341days I.PNG" />
+    <entry file="file://$PROJECT_DIR$/BP_RDSA_PairTrade.data/Cointegration Analysis/COIN - 341days II.PNG" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py" />
+    <entry file="file://$PROJECT_DIR$/_doc/Correlation &amp; Cointegration Analysis/Correlation/1.PNG">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/BP_RDSA_PairTrade.data/Paired Correlation and Trade PnL Analysis/1.PNG">
+    <entry file="file://$PROJECT_DIR$/_doc/Correlation &amp; Cointegration Analysis/Cointegration/COIN - 341days I.PNG">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/BP_RDSA_PairTrade.data/Paired Correlation and Trade PnL Analysis/3.PNG">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demos/backtrader_test_v1.0.py">
+    <entry file="file://$PROJECT_DIR$/_src/backtrader_test_v1.0.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
-          <folding>
-            <element signature="e#85#193#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="2210">
+          <caret line="139" column="36" selection-start-line="139" selection-start-column="36" selection-end-line="139" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demos/bt.trading_signals.py">
+    <entry file="file://$PROJECT_DIR$/BP.RDSA_tick_data/BP_RDSA_IntradayTickData/bp-1yr-60min-intraday.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/misc/QtPy_MySql_Database.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/misc/symbols.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <caret column="3487" selection-start-column="3487" selection-end-column="3487" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BP_RDSA_PairTrade.data/BP_RDSA_IntradayTickData/json_to_python_import.py">
+    <entry file="file://$PROJECT_DIR$/_src/data_pulls/json_to_python_import.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/BP_RDSA_PairTrade.data/Cointegration Analysis/COIN - 261days I.PNG">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BP_RDSA_PairTrade.data/Cointegration Analysis/COIN - 261days II.PNG">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BP_RDSA_PairTrade.data/Cointegration Analysis/COIN - 341days I.PNG">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BP_RDSA_PairTrade.data/Cointegration Analysis/COIN - 341days II.PNG">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py">
+    <entry file="file://$PROJECT_DIR$/_src/PairTrade-backtesting.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="718">
-          <caret line="107" column="5" selection-start-line="107" selection-start-column="5" selection-end-line="107" selection-end-column="5" />
+        <state relative-caret-position="51">
+          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
           <folding>
-            <element signature="e#279#297#0" expanded="true" />
+            <element signature="e#8#92#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.py">
+    <entry file="file://$PROJECT_DIR$/_doc/Correlation &amp; Cointegration Analysis/Cointegration/COIN - 261days II.PNG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_2.py" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.py" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/ide/ide-scripting.groovy">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_src/backtrader_trade.signals.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="164" selection-start-line="164" selection-end-line="164" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="38">
+          <caret line="127" column="26" lean-forward="true" selection-start-line="127" selection-start-column="26" selection-end-line="127" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="107" column="5" selection-start-line="107" selection-start-column="5" selection-end-line="107" selection-end-column="5" />
-          <folding>
-            <element signature="e#279#297#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

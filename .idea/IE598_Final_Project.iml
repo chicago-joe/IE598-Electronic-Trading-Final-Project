@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="PYTHON_MODULE" version="4">
   <component name="NewModuleRootManager">
-    <content url="file://$MODULE_DIR$" />
-    <orderEntry type="inheritedJdk" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/_src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/BP.RDSA_tick_data" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/old.src-DEPRECATED" />
+    </content>
+    <orderEntry type="jdk" jdkName="Python 3.6 (algotrader598)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+  <component name="TemplatesService">
+    <option name="TEMPLATE_FOLDERS">
+      <list>
+        <option value="$MODULE_DIR$/misc" />
+      </list>
+    </option>
   </component>
   <component name="TestRunnerService">
     <option name="projectConfiguration" value="pytest" />

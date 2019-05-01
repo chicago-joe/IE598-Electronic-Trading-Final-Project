@@ -2,23 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df12c270-c136-498e-9cb3-ccf6c23102b1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/jloss.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webResources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/IE598_Final_Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/IE598_Final_Project.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_src/backtrader_trade.signals.py" beforeDir="false" afterPath="$PROJECT_DIR$/_src/backtrader_trade.signals.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old.src-DEPRECATED/TWS/samples/Testbed/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old.src-DEPRECATED/TWS/samples/Testbed/.vs/Testbed/v15/.suo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old.src-DEPRECATED/TWS/samples/Testbed/AvailableAlgoParams.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old.src-DEPRECATED/TWS/samples/Testbed/ContractSamples.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old.src-DEPRECATED/TWS/samples/Testbed/FaAllocationSamples.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old.src-DEPRECATED/TWS/samples/Testbed/OrderSamples.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old.src-DEPRECATED/TWS/samples/Testbed/Program.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old.src-DEPRECATED/TWS/samples/Testbed/ScannerSubscriptionSamples.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old.src-DEPRECATED/TWS/samples/Testbed/Testbed.pyproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old.src-DEPRECATED/TWS/samples/Testbed/Testbed.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old.src-DEPRECATED/TWS/samples/Testbed/UpgradeLog.htm" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +13,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_src/backtrader_test_v2.0.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="89" lean-forward="true" selection-start-line="23" selection-start-column="89" selection-end-line="23" selection-end-column="89" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -69,6 +65,7 @@
         <option value="$PROJECT_DIR$/misc/QtPy_MySql_Database.py" />
         <option value="$PROJECT_DIR$/misc/symbols.csv" />
         <option value="$PROJECT_DIR$/_src/PairTrade-backtesting.py" />
+        <option value="$PROJECT_DIR$/_src/backtrader_test_v2.0.py" />
       </list>
     </option>
   </component>
@@ -94,36 +91,6 @@
           <expand>
             <path>
               <item name="IE598_Final_Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IE598_Final_Project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IE598_Final_Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IE598_Final_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="_doc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IE598_Final_Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IE598_Final_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="_doc" type="462c0819:PsiDirectoryNode" />
-              <item name="Correlation &amp; Cointegration Analysis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IE598_Final_Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IE598_Final_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="_src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IE598_Final_Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IE598_Final_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="misc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IE598_Final_Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IE598_Final_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="old.src-DEPRECATED" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IE598_Final_Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
@@ -144,7 +111,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.updates" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Font" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -322,11 +289,17 @@
       <workItem from="1556312187076" duration="1353000" />
       <workItem from="1556675354021" duration="12000" />
       <workItem from="1556675375688" duration="8000" />
+      <workItem from="1556676406400" duration="6000" />
+      <workItem from="1556676426717" duration="13000" />
+      <workItem from="1556677634132" duration="395000" />
+      <workItem from="1556678527241" duration="603000" />
+      <workItem from="1556679184343" duration="445000" />
+      <workItem from="1556744796941" duration="40000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21296000" />
+    <option name="totallyTimeSpent" value="22798000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -338,9 +311,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
+    <frame x="-6" y="-6" width="1719" height="932" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14785373" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15574263" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.249549" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -350,7 +323,7 @@
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" sideWeight="0.49969932" weight="0.32876712" />
       <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" sideWeight="0.499098" visible="true" weight="0.3281372" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.499098" visible="true" weight="0.3275218" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.500902" side_tool="true" weight="0.42590287" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.499098" weight="0.3275218" />
@@ -462,6 +435,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="127" column="26" lean-forward="true" selection-start-line="127" selection-start-column="26" selection-end-line="127" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_src/backtrader_test_v2.0.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="89" lean-forward="true" selection-start-line="23" selection-start-column="89" selection-end-line="23" selection-end-column="89" />
         </state>
       </provider>
     </entry>

@@ -1,4 +1,0 @@
-2019-04-15 02:53:05.673512-04:00: broker_client_factory.CallBacks:EXIT errorId = -1, errorCode = 502, error message: Couldn't connect to TWS.  Confirm that "Enable ActiveX and Socket Clients" is enabled on the TWS "Configure->API" menu.
-2019-04-15 02:53:05.675504-04:00: broker_client_factory.CallBacks:EXIT IBridgePy version= 4.4.1
-2019-04-15 02:53:50.663418-04:00: broker_client_factory.CallBacks:EXIT errorId = -1, errorCode = 502, error message: Couldn't connect to TWS.  Confirm that "Enable ActiveX and Socket Clients" is enabled on the TWS "Configure->API" menu.
-2019-04-15 02:53:50.663418-04:00: broker_client_factory.CallBacks:EXIT IBridgePy version= 4.4.1

@@ -5,28 +5,9 @@
     <option name="CUSTOM_SCOPE_NAME" value="Open Files" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df12c270-c136-498e-9cb3-ccf6c23102b1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_src/backtrader_LiveTest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_src/backtrader_backtest_v3.0.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/IE598_Final_Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/IE598_Final_Project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BP.RDSA_tick_data/BP_RDSA_IntradayTickData/bp-1yr-60min-intraday.json" beforeDir="false" afterPath="$PROJECT_DIR$/_src/data/60.240min-tickdata/BP_RDSA_IntradayTickData/bp-1yr-60min-intraday.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BP.RDSA_tick_data/BP_RDSA_IntradayTickData/bp-2yr-240min-intraday.json" beforeDir="false" afterPath="$PROJECT_DIR$/_src/data/60.240min-tickdata/BP_RDSA_IntradayTickData/bp-2yr-240min-intraday.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BP.RDSA_tick_data/BP_RDSA_IntradayTickData/rdsa-1yr-60min-intraday.csv" beforeDir="false" afterPath="$PROJECT_DIR$/_src/data/60.240min-tickdata/BP_RDSA_IntradayTickData/rdsa-1yr-60min-intraday.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BP.RDSA_tick_data/BP_RDSA_IntradayTickData/rdsa-1yr-60min-intraday.json" beforeDir="false" afterPath="$PROJECT_DIR$/_src/data/60.240min-tickdata/BP_RDSA_IntradayTickData/rdsa-1yr-60min-intraday.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BP.RDSA_tick_data/BP_RDSA_IntradayTickData/rdsa-2yr-240min-intraday.json" beforeDir="false" afterPath="$PROJECT_DIR$/_src/data/60.240min-tickdata/BP_RDSA_IntradayTickData/rdsa-2yr-240min-intraday.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_src/PairTrade-backtesting.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_src/backtrader_test_v1.0.py" beforeDir="false" afterPath="$PROJECT_DIR$/_src/_deprecated/backtrader_test_v1.0.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_src/backtrader_test_v2.0.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_src/backtrader_trade.signals.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_src/data_pulls/QtPy_MySql_Database.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_src/data_pulls/Tiingo-IEX-datapull.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_src/data_pulls/json_to_python_import.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_src/data_pulls/symbols.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_src/download_merge_output_tiingo_v3.0.py" beforeDir="false" afterPath="$PROJECT_DIR$/_src/_deprecated/download_merge_output_tiingo_v3.0.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_src/tempCodeRunnerFile.py" beforeDir="false" />
+    <list default="true" id="df12c270-c136-498e-9cb3-ccf6c23102b1" name="Default Changelist" comment="" />
+    <list id="456c36a3-f249-4000-be26-48b6e39389b3" name="Upload New File, this version could download both bp and shell with just one run, also create some folders to make our data easy to use" comment="Upload New File, this version could download both bp and shell with just one run, also create some folders to make our data easy to use&#10;&#10;(cherry picked from commit 4923d3c1661687ef777200a613a58e7cf3cd5fdc)">
+      <changelist_data name="ry8" email="ry8@illinois.edu" date="1556601384000" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,8 +39,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_src/backtrader_LiveTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+            <state relative-caret-position="70">
+              <caret line="75" column="5" lean-forward="true" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -86,6 +67,11 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="ry8 &lt;ry8@illinois.edu&gt;" />
+      </list>
+    </option>
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -130,7 +116,10 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+      <showMembers Scope="false" />
+      <showExcludedFiles Scope="true" ProjectPane="true" />
+      <compactDirectories Scope="false" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -145,7 +134,22 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="IE598_Final_Project" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\jloss\PyCharmProjects\IE598_Final_Project" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="IE598_Final_Project" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\jloss\PyCharmProjects\IE598_Final_Project" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="_src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -368,7 +372,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45227000" />
+    <option name="totallyTimeSpent" value="45236000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -380,13 +384,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="912" y="0" width="1655" height="1407" extended-state="0" />
+    <frame x="1273" y="0" width="1294" height="1407" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4976247" visible="true" weight="0.1830721" />
       <window_info id="Structure" order="1" sideWeight="0.5023753" side_tool="true" weight="0.1830721" />
       <window_info id="Favorites" order="2" sideWeight="0.5019984" side_tool="true" weight="0.1830721" />
-      <window_info anchor="bottom" id="Inspection Results" sideWeight="0.49717867" weight="0.32933652" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936507" />
       <window_info anchor="bottom" id="Debug" order="2" weight="0.4" />
@@ -400,13 +403,14 @@
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49880764" weight="0.4252598" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49592477" weight="0.32693845" />
       <window_info anchor="bottom" id="Messages" order="12" />
-      <window_info anchor="right" x="0" y="0" width="363" height="1207" id="Documentation" side_tool="true" weight="0.32978058" />
+      <window_info anchor="bottom" id="Inspection Results" order="13" sideWeight="0.49717867" weight="0.32933652" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" weight="0.32920793" />
       <window_info anchor="right" id="Database" order="4" weight="0.3298217" />
       <window_info anchor="right" id="Run" order="5" weight="0.48526645" />
+      <window_info anchor="right" x="0" y="0" width="363" height="1207" id="Documentation" order="6" side_tool="true" weight="0.32978058" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4976247" visible="true" weight="0.1830721" />
@@ -533,9 +537,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_src/data_pulls/json_to_python_import.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/_src/data_pulls/json_to_python_import.py" />
     <entry file="file://$PROJECT_DIR$/_doc/Correlation &amp; Cointegration Analysis/Cointegration/COIN - 261days II.PNG">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -548,10 +550,10 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/_src/data/rds-a/intra_rds-a_2018-12-27_2018-12-31_1min.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/_src/data/intra_bp_2018_1min.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
@@ -573,12 +575,13 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="982.5000000000001" y="580.0" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="983.0" y="580.0" />
           <SelectedNodes />
           <Categories>
             <Category>Methods</Category>
             <Category>Fields</Category>
           </Categories>
+          <SCOPE>All</SCOPE>
         </state>
       </provider>
     </entry>
@@ -589,27 +592,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_src/backtrader_trade.signals.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1286">
-          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_src/PairTrade-backtesting.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="709">
-          <caret line="84" selection-start-line="84" selection-end-line="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_src/tempCodeRunnerFile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/_src/backtrader_trade.signals.py" />
+    <entry file="file://$PROJECT_DIR$/_src/PairTrade-backtesting.py" />
+    <entry file="file://$PROJECT_DIR$/_src/tempCodeRunnerFile.py" />
     <entry file="file://$PROJECT_DIR$/_src/_deprecated/backtrader_test_v1.0.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -624,13 +609,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_src/test_statisticalArbitrage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/_src/test_statisticalArbitrage.py" />
     <entry file="file://$PROJECT_DIR$/_src/backtrader_backtest_v3.0.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -641,17 +620,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/conf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/source/conf.py" />
     <entry file="file://$PROJECT_DIR$/_src/backtrader_LiveTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+        <state relative-caret-position="70">
+          <caret line="75" column="5" lean-forward="true" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
         </state>
       </provider>
     </entry>

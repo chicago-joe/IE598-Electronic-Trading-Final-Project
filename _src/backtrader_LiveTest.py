@@ -9,12 +9,11 @@ MS Financial Engineering at the University of Illinois, Urbana-Champaign
 """
 
 from __future__ import (absolute_import, division, print_function, unicode_literals)
-import datetime  # For datetime objects
+import argparse, datetime, itertools
 import backtrader as bt  # Import the backtrader platform
-import os.path  # To manage paths
-import sys  # To find out the script name (in argv[0])
+# import bt.utils import flushfile 
 import pandas as pd
-
+import numpy as np
 
 # -------------------------------------------------------------------------------------------------------------------
 # EXTREMELY IMPORTANT!!!! BROKER AND API RESTRICTIONS ARE LISTED BELOW!!!!
@@ -125,6 +124,8 @@ class StatisticalArbitrage(bt.Strategy):  # Create a Strategy
                 self.order = self.sell()  # Keep track of the created order to avoid a 2nd order
 
 
+
+
 # END setup
 # ----------------------------------------------------------------------------------------------------------------
 
@@ -184,9 +185,7 @@ if __name__ == '__main__':
 
 
 
-
 # ----------------------------------------------------------------------------------------------------------------
-
 
 
 """

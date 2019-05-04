@@ -3,5 +3,7 @@
         "${env:SPARK_HOME}\\python",
         "${env:SPARK_HOME}\\python\\pyspark"
     ],
-    "python.pythonPath": "C:\\Users\\jloss\\Miniconda3\\python.exe"
+    "python.pythonPath": "C:\\Users\\jloss\\Anaconda3\\envs\\pytrader\\python.exe",
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true
 }

@@ -1,29 +1,69 @@
 # -*- coding: utf-8 -*-
 """
-Created on Thu Apr 25 01:07:51 2019
+Statistical Arbitrage Trading via InteractiveBrokers API
+An Algorithmic Trading Implementation in Python
 
-@author: 43739
+Created by Ruozhong Yang and Joseph Loss on 4/25/2019
+
+MS Financial Engineering at the University of Illinois, Urbana-Champaign
 """
 
 from __future__ import (absolute_import, division, print_function, unicode_literals)
 import datetime  # For datetime objects
+import backtrader as bt  # Import the backtrader platform
 import os.path  # To manage paths
 import sys  # To find out the script name (in argv[0])
 import pandas as pd
-import backtrader as bt  # Import the backtrader platform
 
 
-class StatisticalArbitrage(bt.Strategy):    # Create a Strategy
+# -------------------------------------------------------------------------------------------------------------------
+# EXTREMELY IMPORTANT!!!! BROKER AND API RESTRICTIONS ARE LISTED BELOW!!!!
+
+"""
+RESTRICTIONS:
+1. Cash and Value Reporting
+    - Where the internal backtrader broker simulation makes a calculation of value (net liquidation value)
+      and cash before calling the strategy next method, the same cannot be guaranteed with a live broker.
+      
+    - If the values were requested, the execution of next could be delayed until the answers arrive
+    
+    - The broker may not yet have calculated the values
+    
+    - Backtrader tells TWS to provide the updated values as soon as they are changed,
+      but it doesn’t know when the messages will arrive.
+    
+    - The values reported by the getcash and getvalue methods of IBBroker
+      are always the latest values received from IB.
+
+2. Position Restrictions
+    - Backtrader uses the Position (price and size) of an asset reported by TWS.
+      Internal calculations could be used following order execution and order status messages,
+      but if some of these messages were missed (sockets sometimes lose packets) the calculations would NOT follow.
+
+3. Trading Strategy Must Account for ALL Open Positions from the previous trading period.
+    - If upon connecting to TWS, the asset on which trades will be executed already has an open position,
+      the calculation of trades made by the strategy will NOT WORK as usual because of the initial offset.
+    - The mathematical model of the strategy must account for any previously-opened positions from prior trading days.
+
+4. Portfolio Value is Reported in Domestic Currency ONLY.
+    - A further restriction is that the values are reported in the base currency of the account,
+      even if values for more currencies are available. This is a design choise.
+"""
+
+# -------------------------------------------------------------------------------------------------------------------
+# BEGIN STRATEGY DESIGN:
+
+class StatisticalArbitrage(bt.Strategy):  # Create a Strategy
     params = (('exitbars', 1950),)
     
     def log(self, txt, dt=None):  # Logging function fot this strategy
         dt = dt or self.datas[0].datetime.date(0)
         print('%s, %s' % (dt.isoformat(), txt))
-        
+    
     def notify_data(self, data, status, *args, **kwargs):
         # the data has switched to LIVE data
         if status == data.LIVE:
-            pass                # TODO: do something here!
+            pass  # TODO: do something here!
     
     def __init__(self):
         self.dataclose = self.datas[0].close  # Keep a reference to the "close" line in the data[0] dataseries
@@ -86,24 +126,24 @@ class StatisticalArbitrage(bt.Strategy):    # Create a Strategy
 
 
 # END setup
-# -----------------------------------------------------------------------------------------------------------
-# BEGIN algo
+# ----------------------------------------------------------------------------------------------------------------
 
+# RUN TRADING STRATEGY:
 if __name__ == '__main__':
     cerebro = bt.Cerebro()  # create a Cerebro entity
     ibstore = bt.stores.IBStore(host='127.0.0.1', port=7497, clientId=1)
     cerebro.broker = ibstore.getbroker()
-    cerebro.addstrategy(StatisticalArbitrage)  # add a strategy
     
-    data1 = ibstore.getdata(dataname = 'RDS.A-STK-SMART-USD')
-    data2 = ibstore.getdata(dataname = 'BP-STK-SMART-USD')
-  
+    data1 = ibstore.getdata(dataname='RDS.A-STK-SMART-USD')
+    data2 = ibstore.getdata(dataname='BP-STK-SMART-USD')
+    # cerebro.adddata(data)  # add data feed to Cerebro
+    
+    
     # if above doesn't work, try direct usage:
     # data1 = bt.feeds.IBData(dataname = 'RDS.A-STK-SMART-USD')
     # data2 = bt.feeds.IBData(dataname = 'BP-STK-SMART-USD')
-
     
-    #--------------------------------------------------------------------------------------------------------------
+    # --------------------------------------------------------------------------------------------------------------
     # if we use the "ticks" timeframe (instaneous trading), we need to resample and compress the data
     # due to API limitations. The minimum unit supported by the API is (Seconds / 1) and RealTimeBars = (Seconds / 5)
     
@@ -112,7 +152,7 @@ if __name__ == '__main__':
     #                        compression = 1,                                   # 1 is the default
     #                        rtbar = True)                                      # use RealTimeBars
     
-    #--------------------------------------------------------------------------------------------------------------
+    # --------------------------------------------------------------------------------------------------------------
     # if using seconds as the timeframe..
     # data = ibstore.getdata(dataname = 'BP-STK-SMART-USD')
     
@@ -123,10 +163,10 @@ if __name__ == '__main__':
     # This is possibly not important, because the system is only sending a bar to the strategy every 20 seconds
     
     # if our strategy uses any resampling / replaying methods like the above code, we need to adjust for small delays in the timecode
-    # data = ibstore.getdata('BP', qcheck = 2.0, ....)        # increasing qcheck from the default 0.5 to 2.0 should solve this.
-   
+    # data = ibstore.getdata('BP', qcheck = 2.0, ....)        # increasing qcheck parameter from 0.5 to 2.0 should solve issue
+
     
-    # cerebro.adddata(data)  # add data feed to Cerebro
+    cerebro.addstrategy(StatisticalArbitrage)  # add a strategy
     
     cerebro.broker.setcash(100000.0)  # set desired cash start
     
@@ -142,5 +182,31 @@ if __name__ == '__main__':
     
     cerebro.plot(start=datetime.date(2000, 1, 1), end=datetime.date(2020, 1, 31))
 
+
+
+
+# ----------------------------------------------------------------------------------------------------------------
+
+
+
+"""
+NOTE ON ORDER TYPES:
+
+Stop triggering is done following different strategies by IB. backtrader does not modify the default setting which is 0:
+
+0 - the default value. The "double bid/ask" method will be used for orders for OTC stocks and US options.
+All other orders will use the "last" method.
+
+If the user wishes to modify this, extra **kwargs can be supplied to buy and sell following the IB documentation.
+For example inside the next method of a strategy:
+    
+    def next(self):
+        # some logic before
+        self.buy(data, m_triggerMethod=2)
+
+*This has changed the policy to 2, the “last” method, where stop orders are triggered based on the last price.
+
+Please consult the IB API docs for any further clarification on stop triggering
+"""
 
 

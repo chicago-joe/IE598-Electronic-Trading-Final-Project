@@ -9,7 +9,7 @@ import pandas as pd
 from datetime import datetime
 
 # parameter
-os.chdir('C:\\Users\\43739\\OneDrive\\us\\2019 spring\\paper trading')
+os.chdir('C:\\Users\\jloss\\PyCharmProjects\\IE598_Final_Project\\_src\\')
 auth_token = 'b2407b4b35df301601ad4fbb8c849f10c2ba1f21'
 tickers = ['bp','rds-a']
 # name in thr var list is of no importance, just to nominate some dataframe and 

@@ -143,6 +143,14 @@ class TestStrategy(bt.Strategy):
 
         if not self.p.trade:
             return
+        print ("Data Status: ")
+        print(self.datastatus)
+        print("Position: ")
+        print(self.position)
+        print("Order ID:")
+        print(self.orderid)
+
+        self.buy()
 
         if self.datastatus and not self.position and len(self.orderid) < 1:
             self.order = self.buy(size = self.p.stake,

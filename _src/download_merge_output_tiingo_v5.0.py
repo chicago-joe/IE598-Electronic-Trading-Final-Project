@@ -18,9 +18,9 @@ intra_freq = '1min'
 year='2018'
 
 for ticker in tickers:
-    # create data folder to download stock data to
+    # create _data folder to download stock _data to
     cur_dir = os.getcwd()
-    foldername='data\\'+ticker
+    foldername='_data\\'+ticker
     data_dir = os.path.join(cur_dir, foldername)
     
     if not os.path.exists(data_dir):
@@ -42,7 +42,7 @@ for ticker in tickers:
         looplist.append(date_for_year[5*x])
         looplist.append(date_for_year[5*x+4])
      
-    # download date based on time(don't have to run twice unless you delete the data)
+    # download date based on time(don't have to run twice unless you delete the _data)
     for x in range((int)(len(looplist)/2)):
         intra_start_date = looplist[(int)(x*2)]
         intra_end_date = looplist[(int)(x*2+1)]
@@ -58,7 +58,7 @@ for ticker in tickers:
     for x in range(1,(int)(len(looplist)/2)):
         intra_start_date = looplist[(int)(x*2)]
         intra_end_date = looplist[(int)(x*2+1)]
-        filename='data\\'+ticker+'\\intra_'+ticker+'_'+intra_start_date+'_'+intra_end_date+'_'+intra_freq+'.csv'
+        filename='_data\\'+ticker+'\\intra_'+ticker+'_'+intra_start_date+'_'+intra_end_date+'_'+intra_freq+'.csv'
         temp=pd.read_csv(filename,index_col=2)
         df_year=[df_year,temp]
         df_year=pd.concat(df_year)
@@ -72,14 +72,14 @@ for ticker in tickers:
     df_year = df_year.loc[:,cols]
     
     #output csv
-    outputname='data\\intra_'+ticker+'_'+year+'_'+intra_freq+'.csv'
+    outputname='_data\\intra_'+ticker+'_'+year+'_'+intra_freq+'.csv'
     df_year.to_csv(outputname) 
     
 #match the date
 
 tickers = ['bp','rds-a']
 for i in range(len(tickers)):
-    locals()[variable_name[i]]=pd.read_csv('data\\intra_'+tickers[i]+'_'+year+'_'+intra_freq+'.csv')
+    locals()[variable_name[i]]=pd.read_csv('_data\\intra_'+tickers[i]+'_'+year+'_'+intra_freq+'.csv')
 
 A=locals()[variable_name[0]]
 for i in range(1,len(variable_name)):
@@ -88,5 +88,5 @@ for i in range(1,len(variable_name)):
 for i in range(len(variable_name)):
     locals()[variable_name[i]]=A.iloc[:,[0,4*i+1,4*i+2,4*i+3,4*i+4]]
     locals()[variable_name[i]].columns = ['date','open','high','low','close']
-    name='data\\intra_'+tickers[i]+'_'+year+'_'+intra_freq+'.csv'
+    name='_data\\intra_'+tickers[i]+'_'+year+'_'+intra_freq+'.csv'
     locals()[variable_name[i]].to_csv(name,index=False)

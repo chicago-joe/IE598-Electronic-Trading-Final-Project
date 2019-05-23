@@ -27,10 +27,10 @@ class St(bt.Strategy):
         txt = []
         txt.append('{}'.format(len(self)))
         txt.append('{}'.format(self.data.datetime.datetime(0).isoformat()))
-        # txt.append('{:.2f}'.format(self.data.open[0]))
-        # txt.append('{:.2f}'.format(self.data.high[0]))
-        # txt.append('{:.2f}'.format(self.data.low[0]))
-        #txt.append('{:.2f}'.format(self.data.close[0]))
+        # txt.append('{:.2f}'.format(self._data.open[0]))
+        # txt.append('{:.2f}'.format(self._data.high[0]))
+        # txt.append('{:.2f}'.format(self._data.low[0]))
+        #txt.append('{:.2f}'.format(self._data.close[0]))
         #
         txt.append('{:.5f}'.format(self.data.close[0]))
 

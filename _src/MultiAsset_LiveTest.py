@@ -75,7 +75,7 @@ class TestStrategy(bt.Strategy):
         self.counttostop = 0
         self.datastatus = 0
 
-        # Create SMA on 2nd data
+        # Create SMA on 2nd _data
         self.sma = bt.indicators.MovAv.SMA(self.data, period = self.p.smaperiod)
 
         print('--------------------------------------------------')
@@ -236,7 +236,7 @@ def runstrategy():
     )
 
     if not args.usestore and not args.broker:  # neither store nor broker
-        datakwargs.update(storekwargs)  # pass the store args over the data
+        datakwargs.update(storekwargs)  # pass the store args over the _data
 
     data0 = IBDataFactory(dataname = args.data0, **datakwargs)
 
@@ -284,7 +284,7 @@ def runstrategy():
                         cancel = args.cancel,
                         donotsell = args.donotsell)
 
-    # Live data ... avoid long data accumulation by switching to "exactbars"
+    # Live _data ... avoid long _data accumulation by switching to "exactbars"
     cerebro.run(exactbars = args.exactbars)
 
     if args.plot and args.exactbars < 1:  # plot if possible
@@ -306,7 +306,7 @@ def parse_args():
 
     parser.add_argument('--stopafter', default = 0, type = int,
                         required = False, action = 'store',
-                        help = 'Stop after x lines of LIVE data')
+                        help = 'Stop after x lines of LIVE _data')
 
     parser.add_argument('--usestore',
                         required = False, action = 'store_true',
@@ -352,11 +352,11 @@ def parse_args():
 
     parser.add_argument('--data0', default = 'RDS A-STK-SMART-USD',
                         required = False, action = 'store',
-                        help = 'data 0 into the system')
+                        help = '_data 0 into the system')
 
     parser.add_argument('--data1', default = 'BP-STK-SMART-USD',
                         required = False, action = 'store',
-                        help = 'data 1 into the system')
+                        help = '_data 1 into the system')
 
     parser.add_argument('--timezone', default = None,
                         required = False, action = 'store',
@@ -419,7 +419,7 @@ def parse_args():
     parser.add_argument('--no-takelate',
                         required = False, action = 'store_true',
                         help = ('resample/replay, do not accept late samples '
-                                'in new bar if the data source let them through '
+                                'in new bar if the _data source let them through '
                                 '(latethrough)'))
 
     parser.add_argument('--no-bar2edge',
@@ -487,7 +487,7 @@ For example inside the next method of a strategy:
     
     def next(self):
         # some logic before
-        self.buy(data, m_triggerMethod=2)
+        self.buy(_data, m_triggerMethod=2)
 
 *This has changed the policy to 2, the “last” method, where stop orders are triggered based on the last price.
 

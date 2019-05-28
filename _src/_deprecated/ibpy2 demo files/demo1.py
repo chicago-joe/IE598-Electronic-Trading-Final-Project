@@ -35,7 +35,7 @@ cid = 4721   # pick a starting order number
 # need to make a for-loop of a counter, adding +1 to oid every time it makes a trade
 
 while __name__ == "__main__":
-    conn = Connection.create(port = 4002, clientId = 1)
+    conn = Connection.create(port = 7497, clientId = 1)
     conn.connect()
 
     oid = cid
@@ -43,7 +43,7 @@ while __name__ == "__main__":
     test_contract = make_contract('EUR.USD', 'CASH', 'IDEALPRO', 'IDEALPRO', 'USD')
     test_order = make_order('BUY', 200)
 
-    conn.placeOrder(oid, test_contract, test_order)
+    conn.placeOrder(cid, test_contract, test_order)
     conn.disconnect()
 
     x = input('enter to resend')

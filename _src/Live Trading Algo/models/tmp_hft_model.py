@@ -105,7 +105,9 @@ class HFTModel:
 
 
 
-
+# --------------------------------------------------------------------------------------------------------------------
+#   This is the original trade logic code below.
+#   I commented it out so that I can play around with it without messing everything upCopied the code above
     # def __perform_trade_logic(self):
         # """
         # This part is the 'secret-sauce' where actual trades takes place.
@@ -240,8 +242,9 @@ class HFTModel:
             time.sleep(1)
 
 
-######################################
-    # REQUEST BID ASK BOOK DATA:
+
+# -----------------------------------------------------------------------------------------------------------------
+    # Requesting Bid/Ask Tick Data:
         # This is proving extremely difficult to implement; work in progress.
 
 #     def __request_bidask_data(self, ib_conn):
@@ -255,9 +258,9 @@ class HFTModel:
 
 
 
+
         # Stream account updates
         ib_conn.reqAccountUpdates(True, self.account_code)
-
 
     # Request Historical Data
     def __request_historical_data(self, ib_conn):
@@ -329,7 +332,11 @@ class HFTModel:
                 return
 
 
-# # Overbought / Oversold Trading Signal
+# ----------------------------------------------------------------------------------------
+    # Overbought / Oversold Trading Signal
+#     This code is necessary to run the original trade logic above.
+    #     I commented it out so I could create my own strategy.
+
 #     def __is_overbought_or_oversold(self):
 #         [symbol_a, symbol_b] = self.symbols
 #         leg_a_last_price = self.prices[symbol_a].values[-1]
@@ -354,6 +361,7 @@ class HFTModel:
 #                                            msg.realizedPNL,
 #                                            msg.accountName)
 #                 return
+
 
 
     def __calculate_pnls(self):
@@ -455,7 +463,7 @@ class HFTModel:
         print("HFT model started.")
         self.trade_qty = trade_qty
 
-        self.conn.connect()  # Get IB connection object
+        self.conn.connect()     # Get IB connection object
         self.__init_stocks_data(symbols)
         self.__request_streaming_data(self.conn)
 
@@ -474,16 +482,16 @@ class HFTModel:
         print("Trading started.")
         try:
             self.__update_charts()
-
             while True:
                 self.__recalculate_strategy_parameters_at_interval()
                 self.__perform_trade_logic()
                 self.__update_charts()
+                self.__calculate_pnls()
+
                 # self.__add_market_data()
                 # self.__place_spread_order(199)
                 #self.__calculate_strategy_params()
                 #self.__on_portfolio_update(datatype.MSG_TYPE_UPDATE_PORTFOLIO)
-                self.__calculate_pnls()
                 # time.sleep(1)
 
 
@@ -498,5 +506,4 @@ class HFTModel:
             time.sleep(1)
 
             print("Disconnected.")
-
 

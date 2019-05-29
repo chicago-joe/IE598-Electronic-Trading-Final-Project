@@ -14,7 +14,7 @@ from ib.opt import ibConnection, Connection
 import ib_data_types as datatype
 from chart import Chart
 from ib_util import IBUtil
-from stock_data import StockData
+from contract_data import ContractData
 from strategy_parameters import StrategyParameters
 
 
@@ -33,7 +33,7 @@ class HFTModel:
         # Store parameters for this model
         self.strategy_params = StrategyParameters(evaluation_time_secs, resample_interval_secs)
 
-        self.stocks_data = {}  # Dictionary storing StockData objects.
+        self.stocks_data = {}  # Dictionary storing ContractData objects.
         self.symbols = None  # List of current symbols
         self.account_code = ""
         self.prices = None  # Store last prices in a DataFrame
@@ -164,7 +164,7 @@ class HFTModel:
         self.prices = pd.DataFrame(columns=symbols)  # Init price storage
         for stock_symbol in symbols:
             contract = self.ib_util.create_stock_contract(stock_symbol)
-            self.stocks_data[stock_symbol] = StockData(contract)
+            self.stocks_data[stock_symbol] = ContractData(contract)
 
 
     def __request_streaming_data(self, ib_conn):

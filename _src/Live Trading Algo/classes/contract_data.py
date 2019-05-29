@@ -1,5 +1,5 @@
 
-class StockData:
+class ContractData:
 
     def __init__(self, contract):
         self.contract = contract

@@ -18,24 +18,26 @@ from ibapi.wrapper import EWrapper
 import ib_data_types as datatype
 from chart import Chart
 from ib_util import IBUtil
-from stock_data import StockData
+from contract_data import ContractData
 from strategy_parameters import StrategyParameters
-from ibapi import client, wrapper, common, ticktype, message, utils, reader
+# from ibapi import client, wrapper, common, ticktype, message, utils, reader
 
 
 class HFTModel:
+
     def __init__(self,
                  host = 'localhost',
-                 port = 4002,
+                 # port = 4002,
+                 port = 7497,
                  client_id = 1, is_use_gateway = False,
-                 evaluation_time_secs = 1,
-                 resample_interval_secs = '20s',
-                 moving_window_period = dt.timedelta(seconds = 60)):
+                 evaluation_time_secs = 15,
+                 resample_interval_secs = '30s',
+                 moving_window_period = dt.timedelta(seconds = 90)):
+
 
         self.moving_window_period = moving_window_period
         self.chart = Chart()
         self.ib_util = IBUtil()
-
 
         # Store parameters for this model
         self.strategy_params = StrategyParameters(evaluation_time_secs, resample_interval_secs)
@@ -45,7 +47,7 @@ class HFTModel:
         self.account_code = ""
         self.prices = None  # Store last prices in a DataFrame
         self.trade_qty = 0
-        self.order_id = 4021
+        self.order_id = 4751
         self.lock = threading.Lock()
 
         # Use ibConnection() for TWS, or create connection for API Gateway
@@ -56,18 +58,17 @@ class HFTModel:
 
     def __perform_trade_logic(self):
         volatility_ratio = self.strategy_params.get_volatility_ratio()
-        beta = self.strategy_params.get_beta()
 
-        is_up_trend, is_down_trend = volatility_ratio > 0.80, volatility_ratio < 0.80
-        beta_up, beta_down = beta > 1.51, beta < 1.51
-        # is_overbought, is_oversold = self.__is_overbought_or_oversold()
+        is_up_trend, is_down_trend = volatility_ratio > 1.0, volatility_ratio < 1.0
+        is_overbought, is_oversold = self.__is_overbought_or_oversold()
 
         # Our final trade signals
-        # is_buy_signal, is_sell_signal = (is_up_trend and is_oversold), (is_down_trend and is_overbought)
-        is_buy_signal, is_sell_signal = (is_up_trend and beta_up), (is_down_trend and beta_down)
+        is_buy_signal, is_sell_signal = (is_up_trend and is_oversold), (is_down_trend and is_overbought)
+
         # Use account position details
         symbol_a = self.symbols[0]
         position = self.stocks_data[symbol_a].position
+
         is_position_closed, is_short, is_long = (position == 0), (position < 0), (position > 0)
 
         upnl, rpnl = self.__calculate_pnls()
@@ -104,74 +105,6 @@ class HFTModel:
             self.__place_spread_order(-self.trade_qty)
 
 
-
-
-    # def __perform_trade_logic(self):
-        # """
-        # This part is the 'secret-sauce' where actual trades takes place.
-        # My take is that great experience, good portfolio construction,
-        # and together with robust backtesting will make your strategy viable.
-        # GOOD PORTFOLIO CONTRUCTION CAN SAVE YOU FROM BAD RESEARCH,
-        # BUT BAD PORTFOLIO CONSTRUCTION CANNOT SAVE YOU FROM GREAT RESEARCH
-        #
-        # This trade logic uses volatility ratio and beta as our indicators.
-        # - volatility ratio > 1 :: uptrend, volatility ratio < 1 :: downtrend
-        # - beta is calculated as: mean(price A) / mean(price B)
-        # We use the assumption that prive levels will mean-revert.
-        # Expected price A = beta x price B
-        #
-        # Consider other methods of identifying our trade logic:
-        # - current trend
-        # - current regime
-        # - detect structural breaks
-        # """
-        # volatility_ratio = self.strategy_params.get_volatility_ratio()
-        # is_up_trend, is_down_trend = volatility_ratio > 1, volatility_ratio < 1
-        # is_overbought, is_oversold = self.__is_overbought_or_oversold()
-        #
-        # # Our final trade signals
-        # is_buy_signal, is_sell_signal = (is_up_trend and is_oversold), (is_down_trend and is_overbought)
-        #
-        # # Use account position details
-        # symbol_a = self.symbols[0]
-        # position = self.stocks_data[symbol_a].position
-        # is_position_closed, is_short, is_long = (position == 0), (position < 0), (position > 0)
-        #
-        # upnl, rpnl = self.__calculate_pnls()
-        #
-        # # Display to terminal dynamically
-        # signal_text = "BUY" if is_buy_signal else "SELL" if is_sell_signal else "NONE"
-        # console_output = '\r[%s] signal=%s, position=%s UPnL=%s RPnL=%s\r' % (dt.datetime.now(), signal_text, position, upnl, rpnl)
-        # sys.stdout.write(console_output)
-        # sys.stdout.flush()
-        #
-        # # Buy/Sell Signals:
-        # if is_position_closed and is_sell_signal:
-        #     print("==================================")
-        #     print("OPEN SHORT POSIITON: SELL A BUY B")
-        #     print("==================================")
-        #     self.__place_spread_order(-self.trade_qty)
-        #
-        # elif is_position_closed and is_buy_signal:
-        #     print("==================================")
-        #     print("OPEN LONG POSIITON: BUY A SELL B")
-        #     print("==================================")
-        #     self.__place_spread_order(self.trade_qty)
-        #
-        # elif is_short and is_buy_signal:
-        #     print("==================================")
-        #     print("CLOSE SHORT POSITION: BUY A SELL B")
-        #     print("==================================")
-        #     self.__place_spread_order(self.trade_qty)
-        #
-        # elif is_long and is_sell_signal:
-        #     print("==================================")
-        #     print("CLOSE LONG POSITION: SELL A BUY B")
-        #     print("==================================")
-        #     self.__place_spread_order(-self.trade_qty)
-
-
-
     def __recalculate_strategy_parameters_at_interval(self):
         """
         Consider re-evaluation of parameters on:
@@ -203,6 +136,8 @@ class HFTModel:
 
         stddevs = np.std(resampled.pct_change().dropna())
         volatility_ratio = stddevs[symbol_a] / stddevs[symbol_b]
+        # import random
+        # volatility_ratio = random.normalvariate(0,1)
 
         self.strategy_params.add_indicators(beta, volatility_ratio)
 
@@ -227,7 +162,7 @@ class HFTModel:
         self.prices = pd.DataFrame(columns = symbols)  # Init price storage
         for stock_symbol in symbols:
             contract = self.ib_util.create_stock_contract(stock_symbol)
-            self.stocks_data[stock_symbol] = StockData(contract)
+            self.stocks_data[stock_symbol] = ContractData(contract)
 
 
     # Request Streaming Market Data
@@ -240,19 +175,15 @@ class HFTModel:
             time.sleep(1)
 
 
-######################################
-    # REQUEST BID ASK BOOK DATA:
+
+# -----------------------------------------------------------------------------------------------------------------
+    # Requesting Bid/Ask Tick Data:
         # This is proving extremely difficult to implement; work in progress.
 
 #     def __request_bidask_data(self, ib_conn):
 #       for index, (key, stock_data) in enumerate(self.stocks_data.items()):
-#           client.EClient.reqTickByTickData(self,
-#                                            index,
-#                                            stock_data.contract,
-#                                            "BidAsk", 1,
-#                                            True)
-#           time.sleep(1)
-
+#           client.EClient.reqTickByTickData(self, index, stock_data.contract, "BidAsk", 1, True)
+        #           time.sleep(1)
 
 
         # Stream account updates
@@ -329,31 +260,21 @@ class HFTModel:
                 return
 
 
-# # Overbought / Oversold Trading Signal
-#     def __is_overbought_or_oversold(self):
-#         [symbol_a, symbol_b] = self.symbols
-#         leg_a_last_price = self.prices[symbol_a].values[-1]
-#         leg_b_last_price = self.prices[symbol_b].values[-1]
-#
-#         expected_leg_a_price = leg_b_last_price * self.strategy_params.get_beta()
-#
-#         is_overbought = leg_a_last_price < expected_leg_a_price  # Cheaper than expected
-#         is_oversold = leg_a_last_price > expected_leg_a_price  # Higher than expected
-#
-#         return is_overbought, is_oversold
-#
-#
-#     def __on_portfolio_update(self, msg):
-#         for key, stock_data in self.stocks_data.items():
-#             if stock_data.contract.m_symbol == msg.contract.m_symbol:
-#                 stock_data.update_position(msg.position,
-#                                            msg.marketPrice,
-#                                            msg.marketValue,
-#                                            msg.averageCost,
-#                                            msg.unrealizedPNL,
-#                                            msg.realizedPNL,
-#                                            msg.accountName)
-#                 return
+# ----------------------------------------------------------------------------------------
+    # Overbought / Oversold Trading Signal
+    # This code is necessary to run the original trade logic above.
+    # I commented it out so I could create my own strategy.
+
+    def __is_overbought_or_oversold(self):
+        [symbol_a, symbol_b] = self.symbols
+        leg_a_last_price = np.mean(self.prices[symbol_a].values[-25:])
+        leg_b_last_price = np.mean(self.prices[symbol_b].values[-25:])
+
+        expected_leg_a_price = leg_b_last_price * self.strategy_params.get_beta()
+
+        is_overbought = leg_a_last_price < expected_leg_a_price  # Cheaper than expected
+        is_oversold = leg_a_last_price > expected_leg_a_price  # Higher than expected
+        return is_overbought, is_oversold
 
 
     def __calculate_pnls(self):
@@ -455,7 +376,7 @@ class HFTModel:
         print("HFT model started.")
         self.trade_qty = trade_qty
 
-        self.conn.connect()  # Get IB connection object
+        self.conn.connect()     # Get IB connection object
         self.__init_stocks_data(symbols)
         self.__request_streaming_data(self.conn)
 
@@ -474,17 +395,12 @@ class HFTModel:
         print("Trading started.")
         try:
             self.__update_charts()
-
             while True:
                 self.__recalculate_strategy_parameters_at_interval()
                 self.__perform_trade_logic()
                 self.__update_charts()
-                # self.__add_market_data()
-                # self.__place_spread_order(199)
-                #self.__calculate_strategy_params()
-                #self.__on_portfolio_update(datatype.MSG_TYPE_UPDATE_PORTFOLIO)
                 self.__calculate_pnls()
-                # time.sleep(1)
+                time.sleep(1)
 
 
 
@@ -498,5 +414,4 @@ class HFTModel:
             time.sleep(1)
 
             print("Disconnected.")
-
 

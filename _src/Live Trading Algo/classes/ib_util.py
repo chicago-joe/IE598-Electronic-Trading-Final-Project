@@ -13,6 +13,18 @@ class IBUtil:
         stock_contract = self.__make_ib_contract(contract_tuple)
         return stock_contract
 
+
+    def create_stock_order(self, quantity, is_buy, is_market_order=True):
+        order = Order()
+        order.m_totalQuantity = quantity
+        order.m_orderType = \
+            DataType.ORDER_TYPE_MARKET if is_market_order else \
+            DataType.ORDER_TYPE_LIMIT
+        order.m_action = \
+            DataType.ORDER_ACTION_BUY if is_buy else \
+            DataType.ORDER_ACTION_SELL
+        return order
+
     @staticmethod
     def __make_ib_contract(contract_tuple):
         new_contract = Contract()
@@ -25,14 +37,20 @@ class IBUtil:
         new_contract.m_right = contract_tuple[6]
         return new_contract
 
-    # @staticmethod
-    def create_stock_order(self, quantity, is_buy, is_market_order=True):
+    @staticmethod
+    def create_generic_contract(symbol, sec_type, exch, prim_exch, curr):
+        contract = Contract()
+        contract.m_symbol = symbol
+        contract.m_secType = sec_type
+        contract.m_exchange = exch
+        contract.m_primaryExch = prim_exch
+        contract.m_currency = curr
+        return contract
+
+    @staticmethod
+    def create_generic_order(order_type, quantity, action):
         order = Order()
+        order.m_orderType = order_type
         order.m_totalQuantity = quantity
-        order.m_orderType = \
-            DataType.ORDER_TYPE_MARKET if is_market_order else \
-            DataType.ORDER_TYPE_LIMIT
-        order.m_action = \
-            DataType.ORDER_ACTION_BUY if is_buy else \
-            DataType.ORDER_ACTION_SELL
+        order.m_action = action
         return order

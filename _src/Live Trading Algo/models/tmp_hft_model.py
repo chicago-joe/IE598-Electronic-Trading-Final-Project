@@ -12,6 +12,10 @@ import time
 
 import numpy as np
 import pandas as pd
+import scipy.stats
+from pandas.plotting import autocorrelation_plot
+import matplotlib.pyplot as plt
+import matplotlib.offsetbox as offsetbox
 from ib.opt import ibConnection, Connection
 from ibapi.wrapper import EWrapper
 
@@ -21,6 +25,8 @@ from ib_util import IBUtil
 from contract_data import ContractData
 from strategy_parameters import StrategyParameters
 # from ibapi import client, wrapper, common, ticktype, message, utils, reader
+
+params = {}
 
 
 class HFTModel:
@@ -117,16 +123,32 @@ class HFTModel:
             print('[%s] === Beta re-evaluated ===' % dt.datetime.now())
 
 
-    def __calculate_strategy_params(self):
-        """
-        Here, we are calculating beta and volatility ratio
-        for our signal indicators.
+    # def __calculate_strategy_params(self):
+    #     """
+    #     Here, we are calculating beta and volatility ratio
+    #     for our signal indicators.
+    #
+    #     Consider calculating other statistics here:
+    #     - stddevs of errs
+    #     - correlations
+    #     - co-integration
+    #     """
+    #     [symbol_a, symbol_b] = self.symbols
+    #     filled_prices = self.prices.fillna(method = 'ffill')
+    #     resampled = filled_prices.resample(self.strategy_params.resample_interval_secs).ffill().dropna()
+    #
+    #     mean = np.mean(resampled)
+    #     beta = mean[symbol_a] / mean[symbol_b]
+    #
+    #     stddevs = np.std(resampled.pct_change().dropna())
+    #     volatility_ratio = stddevs[symbol_a] / stddevs[symbol_b]
+    #     # import random
+    #     # volatility_ratio = random.normalvariate(0,1)
+    #
+    #     self.strategy_params.add_indicators(beta, volatility_ratio)
 
-        Consider calculating other statistics here:
-        - stddevs of errs
-        - correlations
-        - co-integration
-        """
+
+    def __calculate_strategy_params(self):
         [symbol_a, symbol_b] = self.symbols
         filled_prices = self.prices.fillna(method = 'ffill')
         resampled = filled_prices.resample(self.strategy_params.resample_interval_secs).ffill().dropna()

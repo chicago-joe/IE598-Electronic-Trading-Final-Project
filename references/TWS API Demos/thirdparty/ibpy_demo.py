@@ -5,7 +5,7 @@
 # def my_account_handler(msg):
 #     # do something with account msg
 # def my_tick_handler(msg):
-#     # do something with market data msg
+#     # do something with market _data msg
 #
 # connection = ibConnection()
 # connection.register(my_account_handler, 'UpdateAccountValue')
@@ -59,7 +59,7 @@ if __name__ == "__main__":
     # usual port of 7496, with a clientId of 100
     # (The clientId is chosen by us and we will need
     # separate IDs for both the execution connection and
-    # market data connection)
+    # market _data connection)
     tws_conn = Connection.create(port=7497, clientId=1)
     tws_conn.connect()
 

@@ -1,4 +1,4 @@
-# Original HFT Model Template
+# Original IB PairsTrading Algo Model Template
 # Taken from https://github.com/jamesmawm/High-Frequency-Trading-Model-with-IB/blob/master/models/hft_model.py
 #
 import datetime as dt
@@ -354,7 +354,7 @@ class HFTModel:
 
 
     def start(self, symbols, trade_qty):
-        print("HFT model started.")
+        print("IB PairsTrading Algo model started.")
         self.trade_qty = trade_qty
 
         self.conn.connect()  # Get IB connection object

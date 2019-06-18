@@ -373,7 +373,7 @@ class HFTModel:
 
 
     def start(self, symbols, trade_qty):
-        print("HFT model started.")
+        print("IB PairsTrading Algo model started.")
         self.trade_qty = trade_qty
 
         self.conn.connect()     # Get IB connection object

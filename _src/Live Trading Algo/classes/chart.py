@@ -19,7 +19,9 @@ class Chart:
             series_list = self.__consolidate_to_series_list(*args)
             self.__check_and_init_plot(series_list)
             self.__update_all_plots(series_list)
-            plt.draw()
+            # plt.draw()
+            plt.ion()
+            plt.show()
             plt.pause(0.01)
         finally:
             self.lock.release()

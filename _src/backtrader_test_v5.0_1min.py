@@ -14,7 +14,7 @@ import warnings
 warnings.filterwarnings("ignore")
 
 # parameter
-os.chdir('C:\\Users\\43739\\OneDrive\\us\\2019 spring\\paper trading')
+os.chdir('C:\\Users\\jloss\\PyCharmProjects\\IE598_Final_Project\\')
 tickers = ['bp','rds-a']
 # name in variable_name is of no importance, just to nominate some dataframe 
 variable_name=['BP','RDSA']
@@ -199,8 +199,8 @@ if __name__ == '__main__':
     
     # load the data
     datalist = [
-    ('data\\intra_'+tickers[0]+'_'+year+'_'+intra_freq+'.csv', variable_name[0]), #[0] = Data file, [1] = Data name
-    ('data\\intra_'+tickers[1]+'_'+year+'_'+intra_freq+'.csv', variable_name[1]),
+    ('_data\\intra_'+tickers[0]+'_'+year+'_'+intra_freq+'.csv', variable_name[0]), #[0] = Data file, [1] = Data name
+    ('_data\\intra_'+tickers[1]+'_'+year+'_'+intra_freq+'.csv', variable_name[1]),
     ]
 
     # Loop through the list adding to cerebro.

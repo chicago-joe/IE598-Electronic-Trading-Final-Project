@@ -3,7 +3,7 @@
 # tmp_hft_model.py
 # Modification of original hft_model file to suit needs
 #
-# THIS IS A WORK IN PROGRESS FILE - THERE MAY BE (AND LIKELY IS) SEVERAL BUGS
+# THIS IS A WORK IN PROGRESS FILE - T HERE MAY BE (AND LIKELY IS) SEVERAL BUGS
 #
 import datetime as dt
 import sys
@@ -22,7 +22,6 @@ from contract_data import ContractData
 from strategy_parameters import StrategyParameters
 # from ibapi import client, wrapper, common, ticktype, message, utils, reader
 
-
 class HFTModel:
 
     def __init__(self,
@@ -30,10 +29,9 @@ class HFTModel:
                  # port = 4002,
                  port = 7497,
                  client_id = 1, is_use_gateway = False,
-                 evaluation_time_secs = 15,
+                 evaluation_time_secs = 20,
                  resample_interval_secs = '30s',
                  moving_window_period = dt.timedelta(seconds = 90)):
-
 
         self.moving_window_period = moving_window_period
         self.chart = Chart()
@@ -46,7 +44,7 @@ class HFTModel:
         self.symbols = None  # List of current symbols
         self.account_code = ""
         self.prices = None  # Store last prices in a DataFrame
-        self.trade_qty = 0
+        self.trade_qty = 100
         self.order_id = 4751
         self.lock = threading.Lock()
 
@@ -395,6 +393,7 @@ class HFTModel:
         print("Trading started.")
         try:
             self.__update_charts()
+
             while True:
                 self.__recalculate_strategy_parameters_at_interval()
                 self.__perform_trade_logic()

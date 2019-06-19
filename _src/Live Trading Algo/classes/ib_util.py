@@ -13,8 +13,8 @@ class IBUtil:
         stock_contract = self.__make_ib_contract(contract_tuple)
         return stock_contract
 
-
-    def create_stock_order(self, quantity, is_buy, is_market_order=True):
+    # @staticmethod
+    def create_stock_order(quantity, is_buy, is_market_order=True):
         order = Order()
         order.m_totalQuantity = quantity
         order.m_orderType = \

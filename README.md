@@ -4,7 +4,7 @@ University of Illinois at Urbana-Champaign
 
 ## Statistical Arbitrage Trading in Python
 #### InteractiveBrokers Paper-Trader Algorithm
-######*by  Ruozhong Yang &  Joseph Loss*
+#### *by  Ruozhong Yang &  Joseph Loss*
 
 
 For our final project, we are going to develop, back-test, and implement an algorithmic trading strategy through the InteractiveBrokers Python API software. 

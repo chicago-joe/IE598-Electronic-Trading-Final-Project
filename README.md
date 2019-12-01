@@ -3,7 +3,7 @@ IE 598 – Electronic Trading
 University of Illinois at Urbana-Champaign
 
 ## Statistical Arbitrage Trading in Python
-#### InteractiveBrokers Paper-Trader Algorithm
+### InteractiveBrokers Paper-Trading Algorithm
 #### *by  Ruozhong Yang &  Joseph Loss*
 
 
